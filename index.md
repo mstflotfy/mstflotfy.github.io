@@ -7,3 +7,20 @@
 #
 layout: home
 ---
+
+
+#### Hello there.
+This is a blog.
+
+Here, I write to better understand the things I struggle with.
+
+I am no expert. I am overwhelmed by those things, so I seek to simplify.
+Not to dumb down, but to find some entry point from which I can dig deeper. Or choose to stop if satisfied by the departure of the puzzling.
+
+#### WHAT AM I CURRENTLY STRUGGLING WITH?
+Myself.
+
+I am the kind of person who, without a plan, descends into chaos.
+I have been pondering (and some times making attempts at) having a self-discipline system for years.
+
+Now I finally venture into an exploration of self-discipline and productivity, mainly through experimenting.
