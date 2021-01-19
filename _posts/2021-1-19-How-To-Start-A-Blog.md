@@ -34,7 +34,7 @@ First, let's get the domain name out of the way.
 
 - You more rent a domain name than buy it. It’s yours for the years you have paid for, then you need to renew if you do not, it will be up for sale, and others will be able to buy it.
 
-- It does not matter where you buy it. Just find a well-known site that has good buying and renewal prices. I checked [Google Domains](https://domains.google/) and [NameCheap]((https://www.namecheap.com/)), but there are many other options.
+- It does not matter where you buy it. Just find a well-known site that has good buying and renewal prices. I checked [Google Domains](https://domains.google/) and [NameCheap](https://www.namecheap.com/), but there are many other options.
 
 - The domain name extension doesn’t matter much. Although it’s best to go with .com as it is the better-known option and easy to remember. Also, some weird extensions might be considered spammy. If .com is not available, go with any other familiar option.
 
@@ -57,7 +57,7 @@ To simplify, a host is a computer that is always connected to the internet. You 
 There are many ways to build a website. Let's narrow it down to three that anyone starting a blog should consider. I ordered those by popularity.
 
 #### **Three ways to build and host a blog**
-- Host the site on a shared hosting service, like Bluehost, and build it with [WordPress]((https://wordpress.org/download/)).
+- Host the site on a shared hosting service, like Bluehost, and build it with [WordPress](https://wordpress.org/download/).
 - Build and host the site on a drag and drop platform like [Wix](https://www.wix.com/), or [Squarespace](https://www.squarespace.com/).
 - Build the blog with a static site generator like [Jekyll](https://jekyllrb.com/) and host it on a free static hosting service like [GitHub Pages](https://pages.github.com/).
 
