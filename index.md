@@ -6,9 +6,10 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+Title:
 ---
 
-# **Hello there.**
+# Hey there.
 <br>
 
 My name is Mostafa Lotfy, and this is my blog.
