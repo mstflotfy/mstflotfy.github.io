@@ -50,6 +50,6 @@ I want to learn to code and perhaps build a self-discipline & productivity app.
 
 I looked for a beginner-friendly first programming language to learn and choose Swift, which led me to SwiftUI. I am currently, very slowly, working on finishing the [free online course 100 days with SwiftUI](https://www.hackingwithswift.com/100/swiftui).
 
-My initial intentions were to build this blog without coding to focus on SwiftUI and the many other things I got into. But the allure of [static websites and Jamstack](https://jamstack.org/what-is-jamstack/) pulled me in.
+My initial intentions were to [start this blog](/dev/how-to-start-a-blog/) without coding to focus on SwiftUI and the many other things I got into. But the allure of [static websites and Jamstack](https://jamstack.org/what-is-jamstack/) pulled me in.
 
 I am still at the beginning of this endeavor. I try to simplify some of the things I initially struggled with in the [DEV](/dev/) section.
