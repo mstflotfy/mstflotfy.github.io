@@ -6,11 +6,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-Title:
 ---
-
-# Hey there.
-
+{{# Hey there.
+}}
 My name is Mostafa Lotfy, and this is my blog.
 
 Here, I write to better understand the things I struggle with.
