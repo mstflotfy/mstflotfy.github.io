@@ -10,7 +10,6 @@ Title:
 ---
 
 # Hey there.
-<br>
 
 My name is Mostafa Lotfy, and this is my blog.
 
