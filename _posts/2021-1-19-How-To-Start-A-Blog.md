@@ -135,7 +135,7 @@ I had no idea what those were as well.
 
 To take this direction, you must be willing to get familiar with new subjects, including git, GitHub, Markdown, the command line, and Jekyll. And to customize your blog, you will need to learn Jekyll, not just get familiar with it.
 
-  ## **Quick Recap**
+## **Quick Recap**
 
   I chose to host my blog on GitHub Pages, I built the site with Jekyll, and I bought a .com domain name from Namecheap.
 
@@ -153,7 +153,7 @@ To take this direction, you must be willing to get familiar with new subjects, i
 
   Whatever path you choose to take, do not waste your time overthinking. Pick a direction and start now and learn as you go. Then you will find the right fit for you.
 
-  ## **Next Steps**
+## **Next Steps**
   If you do not mind learning new skills and saving money. Here is [A step by step guide to starting a blog with Jekyll](/post-coming-soon/). **`This will be available very soon!`**
 
   You will get familiar with the command-line, Jekyll, git & GitHub, and Markdown. You will build your blog or personal website and host it for free on GitHub Pages.
