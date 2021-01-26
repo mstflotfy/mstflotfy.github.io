@@ -140,10 +140,10 @@ To take this direction, you must be willing to get familiar with new subjects, i
   I chose to host my blog on GitHub Pages, I built the site with Jekyll, and I bought a .com domain name from Namecheap.
 
   Quick Reasons
-    - GitHub Pages is free.
-    - It is quick and easy to start with Jekyll.
-    - .com is the most popular and was available.
-    - Namecheap had reasonable prices.
+  - GitHub Pages is free.
+  - It is quick and easy to start with Jekyll.
+  - .com is what most people are familiar with.
+  - Namecheap had reasonable prices.
 
   Next year I might consider hosting on Cloudflare Pages or Netlify, sticking to Jekyll unless it becomes a pain, and migrating the domain name to Cloudflare.
 
@@ -154,7 +154,7 @@ To take this direction, you must be willing to get familiar with new subjects, i
   Whatever path you choose to take, do not waste your time overthinking. Pick a direction and start now and learn as you go. Then you will find the right fit for you.
 
 ## **Next Steps**
-  If you do not mind learning new skills and saving money. Here is [A step by step guide to starting a blog with Jekyll](/post-coming-soon/). **`This will be available very soon!`**
+  If you do not mind learning new skills and saving money. Here is [A step by step guide to start a blog with Jekyll](/dev/step-by-step-guide-start-blog-with-jekyll/).
 
   You will get familiar with the command-line, Jekyll, git & GitHub, and Markdown. You will build your blog or personal website and host it for free on GitHub Pages.
 
