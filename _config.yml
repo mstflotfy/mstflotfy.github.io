@@ -3,7 +3,7 @@ author:
   name: Mostafa Lotfy
   email: null
 description: > # this means to ignore newlines until "show_excerpts:"
-  © Mostafa M. Lotfy, 2020 | This site is built with jekyll & github pages
+  © Mostafa M. Lotfy, 2020 | This site is built with Jekyll & GitHub pages
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
