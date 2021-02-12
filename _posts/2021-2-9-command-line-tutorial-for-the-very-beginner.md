@@ -571,4 +571,4 @@ Remember not to try to memorize commands it will happen automatically. You can r
 
 <br>
 
-[Back: The Command Line](/dev/command-line/)<br> | [Next: The command line cheat sheet](/post-coming-soon/)
+[Back: The Command Line](/dev/command-line/)<br> | [Next: The command line cheat sheet](/dev/command-line-cheat-sheet/)
