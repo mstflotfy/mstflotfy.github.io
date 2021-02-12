@@ -182,7 +182,7 @@ Whenever your terminal screen gets crowded by commands, type `clear` to go back 
 
 Now that you are familiar with different commands to use as examples. Let's breakdown the command structure to eliminate any left confusion.
 
-`$ cmd -options arguments`
+`$ command -options arguments`
 
 `pwd` is a command.<br>
 `ls` is another command.
@@ -538,7 +538,7 @@ You'll need to restart or open a new tab to see changes.
 #### **Dealing with spaces**
 
 {% highlight bash %}
-$ cd 'new file.txt'
+$ cd 'folder Name'
 {% endhighlight %}
 
 
