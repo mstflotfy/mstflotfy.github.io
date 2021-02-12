@@ -35,7 +35,7 @@ Our aim is not to replace the graphical user interface but to do new things and 
 ## **How To Use It**
 
 [Command-line tutorial](/dev/command-line-beginner-tutorial/)<br>
-[Command-line cheat sheet](/post-coming-soon/)<br>
+[Command-line cheat sheet](/dev/command-line-cheat-sheet/)<br>
 
 After you take the tutorial, the command line cheat sheet is a useful page you can bookmark and get back to when your memory abandons you.
 
