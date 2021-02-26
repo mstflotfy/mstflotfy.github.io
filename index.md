@@ -6,8 +6,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-titl: null
+titl: Building a Personal Productivity System
 ---
+
 
 I am the kind of person who, without a plan, descends into chaos. I have, as most people do, been living without a system. I had no plan.
 
