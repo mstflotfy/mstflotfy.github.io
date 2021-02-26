@@ -1,6 +1,6 @@
 ---
 title: Articles
-layout: page
+layout: blogPage
 permalink: /articles/
 ---
 
