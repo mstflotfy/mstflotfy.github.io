@@ -218,6 +218,15 @@ ls -a Documents
 
 Now that you can navigate. Let's learn how to do quick edits to text files.
 
+#### **$ cat**
+{% highlight bash %}
+$ cat newFile.txt
+{% endhighlight %}
+
+This command will display the content of a text file inside the terminal. A quick way to examine the content of text files without a need to open the file itself.
+
+
+
 #### **$ touch**
 {% highlight bash %}
 $ touch newFile.txt
@@ -559,6 +568,10 @@ Use `$ man anyCommand` to go to the manual and understand how it works. It will 
 #### **alt + click**
 
 To get the mouse cursor to a specific part of a sentence or command in a terminal you need to press and hold the `alt` button while doing it otherwise it will not work.
+
+#### **tab**
+
+Instead of writing the whole name or using a wildcard could instead use tab for autocomplete.
 
 
 <br>

@@ -66,6 +66,11 @@ $ ls -a Documents   # `ls` is the command, `-a` is an option, and `Documents` is
 
 ## **Edit**
 
+#### **$ cat**
+{% highlight bash %}
+$ cat file.txt   # Read text file inside the terminal.
+{% endhighlight %}
+
 #### **$ open**
 {% highlight bash %}
 $ open file.txt   # Open a file or folder inside the current directory. You can edit the file, save it, then get back to the terminal. Also, opens Folders in `Finder` and any type of file. When opening a file, the extension must be added after the name.
@@ -99,6 +104,14 @@ $ nano fileName   # Create, read, or edit a text file inside the terminal. `ctrl
 $ nano ~/desktop/fileName   # Create or edit a text file directly on the `Desktop` without changing the current working directory to Desktop first.
 {% endhighlight %}
 
+#### **$ echo**
+{% highlight bash %}
+$ echo "line to add" >> <fileName>   # Add a line of text to a file on the fly.
+{% endhighlight %}
+
+{% highlight bash %}
+$ echo "alias ..='cd ..'" >> ~/.zshrc   # Add an alias directly without the need to open or navigate.
+{% endhighlight %}
 
 
 ## **Organize**
@@ -195,7 +208,7 @@ $ du -sh ~/documents/*    # Get the size of each file and folder in any direcotr
 
 #### **Wildcards**
 {% highlight bash %}
-$ cd  ~/Doc*    # Use wildcards to be lazy and avoid writing long names. This command will change the current directory to the `Documents` folder.
+$ cd  ~/Doc*    # Use wildcards to be lazy and avoid writing long names. This command will change the current directory to the `Documents` folder. Could also just press tab for autocompletion.
 {% endhighlight %}
 
 {% highlight bash %}
