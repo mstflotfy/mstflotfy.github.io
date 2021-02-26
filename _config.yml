@@ -3,9 +3,9 @@ author:
   name: Mostafa Lotfy
   email: null
 description: > # this means to ignore newlines until "show_excerpts:"
-  © Mostafa M. Lotfy, 2020 | This site is built with Jekyll & GitHub pages
+  Mostafa Lotfy's self-discipline and productivity blog. | This site is built with Jekyll & GitHub pages
 
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -15,14 +15,14 @@ minima:
   # generate social links in footer
   social_links:
     twitter:
+    instagram: mstflotfy
+    pinterest: mstflotfy
     github:  mstflotfy
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
-    instagram: mstflotfy
     # linkedin: jekyll
-    pinterest: mstflotfy
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
@@ -49,8 +49,9 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-  - productivity.md
-  - dev.md
+  - articles.md
+  - about.md
+
 
 # Build settings
 theme: null
