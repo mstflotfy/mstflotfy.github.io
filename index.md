@@ -9,8 +9,6 @@ layout: home
 titl: null
 ---
 
-## **Building a Personal Productivity System**
-
 I am the kind of person who, without a plan, descends into chaos. I have, as most people do, been living without a system. I had no plan.
 
 I finally venture into an exploration of self-discipline and productivity, mainly through experimenting.
