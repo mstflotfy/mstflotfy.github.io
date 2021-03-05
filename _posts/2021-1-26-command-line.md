@@ -3,7 +3,7 @@ title: The Command Line for the very beginner
 layout: post
 permalink: /dev/command-line/
 layout: redirected
-redirect_to: https:\\dev.mstflotfy.com/command-line-very-beginner
+redirect_to: https://dev.mstflotfy.com/command-line-very-beginner/
 ---
 
 This article is a part of [A Step By Step Guide To Starting A Blog With Jekyll.](/step-by-step-guide-start-blog-with-jekyll/)

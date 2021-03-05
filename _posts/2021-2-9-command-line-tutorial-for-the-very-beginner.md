@@ -3,7 +3,7 @@ title: A Command Line Tutorial For The Very Beginner!
 layout: post
 permalink: /dev/command-line-beginner-tutorial/
 layout: redirected
-redirect_to: https:\\dev.mstflotfy.com/command-line-beginner-tutorial/
+redirect_to: https://dev.mstflotfy.com/command-line-beginner-tutorial/
 ---
 
 This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/step-by-step-guide-start-blog-with-jekyll/)

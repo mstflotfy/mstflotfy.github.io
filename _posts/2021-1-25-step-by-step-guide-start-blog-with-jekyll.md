@@ -3,7 +3,7 @@ title: A Step By Step Guide To Start A Blog With Jekyll
 layout: post
 permalink: /dev/step-by-step-guide-start-blog-with-jekyll/
 layout: redirected
-redirect_to: https:\\dev.mstflotfy.com/step-by-step-guide-start-blog-with-jekyll
+redirect_to: https://dev.mstflotfy.com/step-by-step-guide-start-blog-with-jekyll/
 ---
 
 This article is a follow up to [How To Start A Blog](/how-to-start-a-blog/), where I go through the reasons I choose [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/) to build my blog and the other options I considered.

@@ -3,7 +3,7 @@ title: The Command Line Cheat Sheet
 layout: post
 permalink: /dev/command-line-cheat-sheet/
 layout: redirected
-redirect_to: https:\\dev.mstflotfy.com/command-line-cheat-sheet
+redirect_to: https://dev.mstflotfy.com/command-line-cheat-sheet/
 ---
 
 This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/step-by-step-guide-start-blog-with-jekyll/)
