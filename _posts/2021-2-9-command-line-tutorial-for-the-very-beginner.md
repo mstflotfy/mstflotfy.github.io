@@ -1,15 +1,16 @@
 ---
 title: A Command Line Tutorial For The Very Beginner!
 layout: post
-section: DEV
 permalink: /dev/command-line-beginner-tutorial/
+layout: redirected
+redirect_to: https:\\dev.mstflotfy.com/command-line-beginner-tutorial/
 ---
 
-This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/)
+This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/step-by-step-guide-start-blog-with-jekyll/)
 
 The commands in this tutorial work on Mac and Linux. If you are using Windows, you will have to look up [how to install bash on Windows.](https://duckduckgo.com/?q=how+to+install+bash+on+windows&t=h_&ia=web)
 
-There is no need to memorize any command. Understand what each one does and how to use it. Then use a [cheat sheet](/post-coming-soon/) when you get stuck. After a while, you will memorize the commands you repeatedly use.
+There is no need to memorize any command. Understand what each one does and how to use it. Then use a [cheat sheet](/command-line-cheat-sheet/) when you get stuck. After a while, you will memorize the commands you repeatedly use.
 
 ## Outline
 
@@ -224,7 +225,6 @@ $ cat newFile.txt
 {% endhighlight %}
 
 This command will display the content of a text file inside the terminal. A quick way to examine the content of text files without a need to open the file itself.
-
 
 
 #### **$ touch**
@@ -569,9 +569,9 @@ Use `$ man anyCommand` to go to the manual and understand how it works. It will 
 
 To get the mouse cursor to a specific part of a sentence or command in a terminal you need to press and hold the `alt` button while doing it otherwise it will not work.
 
-#### **tab**
+#### **tab for autocomplete**
 
-Instead of writing the whole name or using a wildcard could instead use tab for autocomplete.
+Instead of writing the whole name of a file or folder or using a wildcard, you could instead use press on the tab button for autocomplete, after writing the intial par of the name.
 
 
 <br>
@@ -584,4 +584,4 @@ Remember not to try to memorize commands it will happen automatically. You can r
 
 <br>
 
-[Back: The Command Line](/dev/command-line/)<br> | [Next: The command line cheat sheet](/dev/command-line-cheat-sheet/)
+[Back: The Command Line](/command-line-very-beginner/)<br> | [Next: The command line cheat sheet](/command-line-cheat-sheet/)

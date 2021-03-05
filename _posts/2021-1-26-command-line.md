@@ -1,11 +1,12 @@
 ---
-title: The Command Line
+title: The Command Line for the very beginner
 layout: post
-section: DEV
 permalink: /dev/command-line/
+layout: redirected
+redirect_to: https:\\dev.mstflotfy.com/command-line-very-beginner
 ---
 
-This article is a part of [A Step By Step Guide To Starting A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/)
+This article is a part of [A Step By Step Guide To Starting A Blog With Jekyll.](/step-by-step-guide-start-blog-with-jekyll/)
 
 ## **What Is The Command Line**
 
@@ -34,8 +35,8 @@ Our aim is not to replace the graphical user interface but to do new things and 
 
 ## **How To Use It**
 
-[Command-line tutorial](/dev/command-line-beginner-tutorial/)<br>
-[Command-line cheat sheet](/dev/command-line-cheat-sheet/)<br>
+[Command-line tutorial](/command-line-beginner-tutorial/)<br>
+[Command-line cheat sheet](/command-line-cheat-sheet/)<br>
 
 After you take the tutorial, the command line cheat sheet is a useful page you can bookmark and get back to when your memory abandons you.
 
@@ -57,4 +58,4 @@ After you take the tutorial, the command line cheat sheet is a useful page you c
 
 <br>
 
-[Back: A step by step guide to starting a blog with Jekyll ](/dev/step-by-step-guide-start-blog-with-jekyll/)| [Next: Git & Github](/post-coming-soon/)
+[Back: A step by step guide to starting a blog with Jekyll ](/step-by-step-guide-start-blog-with-jekyll/)| Next: Git & Github `Coming Soon`

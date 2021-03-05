@@ -1,8 +1,9 @@
 ---
 title: How To Start A Blog
-section: DEV
 layout: post
 permalink: /dev/how-to-start-a-blog/
+layout: redirected
+redirect_to: https:\\dev.mstflotfy.com/how-to-start-a-blog/
 ---
 
 A couple of weeks before I wrote this post, I had no idea how to start a blog or any website.
@@ -154,7 +155,7 @@ To take this direction, you must be willing to get familiar with new subjects, i
   Whatever path you choose to take, do not waste your time overthinking. Pick a direction and start now and learn as you go. Then you will find the right fit for you.
 
 ## **Next Steps**
-  If you do not mind learning new skills and saving money. Here is [A step by step guide to start a blog with Jekyll](/dev/step-by-step-guide-start-blog-with-jekyll/).
+  If you do not mind learning new skills and saving money. Here is [A step by step guide to start a blog with Jekyll](/step-by-step-guide-start-blog-with-jekyll/).
 
   You will get familiar with the command-line, Jekyll, git & GitHub, and Markdown. You will build your blog or personal website and host it for free on GitHub Pages.
 

@@ -1,11 +1,12 @@
 ---
 title: The Command Line Cheat Sheet
 layout: post
-section: DEV
 permalink: /dev/command-line-cheat-sheet/
+layout: redirected
+redirect_to: https:\\dev.mstflotfy.com/command-line-cheat-sheet
 ---
 
-This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/)
+This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/step-by-step-guide-start-blog-with-jekyll/)
 
 
 ## **Navigate**
@@ -68,7 +69,7 @@ $ ls -a Documents   # `ls` is the command, `-a` is an option, and `Documents` is
 
 #### **$ cat**
 {% highlight bash %}
-$ cat file.txt   # Read text file inside the terminal.
+$ cat file.txt   # Read a text file inside the terminal.
 {% endhighlight %}
 
 #### **$ open**
@@ -106,7 +107,7 @@ $ nano ~/desktop/fileName   # Create or edit a text file directly on the `Deskto
 
 #### **$ echo**
 {% highlight bash %}
-$ echo "line to add" >> <fileName>   # Add a line of text to a file on the fly.
+$ echo "line to add" >> <fileName>   # Add a line of text to a file on the fly (without opening the file)
 {% endhighlight %}
 
 {% highlight bash %}
@@ -273,4 +274,4 @@ Remember not to try to memorize commands it will happen automatically. You can r
 
 <br>
 
-[Back: A command line tutorial for the very begginer](/dev/command-line-beginner-tutorial/)<br> | [Next: Git & GitHub.](/post-coming-soon)
+[Back: A command line tutorial for the very begginer](/command-line-beginner-tutorial/)<br> | Next: `Git & GitHub. (coming soon)`
