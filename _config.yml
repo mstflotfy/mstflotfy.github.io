@@ -5,6 +5,8 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Mostafa Lotfy's self-discipline and productivity blog. | This site is built with Jekyll & GitHub pages
 
+url: https://mstflotfy.com/
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
