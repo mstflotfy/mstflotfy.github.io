@@ -1,6 +1,7 @@
 ---
 title: The Command Line for the very beginner
 layout: post
+sitemap: false
 permalink: /dev/command-line/
 layout: redirected
 redirect_to: https://dev.mstflotfy.com/command-line-very-beginner/

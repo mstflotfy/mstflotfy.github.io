@@ -1,6 +1,7 @@
 ---
 title: A Step By Step Guide To Start A Blog With Jekyll
 layout: post
+sitemap: false
 permalink: /dev/step-by-step-guide-start-blog-with-jekyll/
 layout: redirected
 redirect_to: https://dev.mstflotfy.com/step-by-step-guide-start-blog-with-jekyll/

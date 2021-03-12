@@ -1,6 +1,7 @@
 ---
 title: The Command Line Cheat Sheet
 layout: post
+sitemap: false
 permalink: /dev/command-line-cheat-sheet/
 layout: redirected
 redirect_to: https://dev.mstflotfy.com/command-line-cheat-sheet/

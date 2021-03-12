@@ -1,6 +1,7 @@
 ---
 title: A Command Line Tutorial For The Very Beginner!
 layout: post
+sitemap: false
 permalink: /dev/command-line-beginner-tutorial/
 layout: redirected
 redirect_to: https://dev.mstflotfy.com/command-line-beginner-tutorial/

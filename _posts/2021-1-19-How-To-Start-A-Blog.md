@@ -1,6 +1,7 @@
 ---
 title: How To Start A Blog
 layout: post
+sitemap: false
 permalink: /dev/how-to-start-a-blog/
 layout: redirected
 redirect_to: https://dev.mstflotfy.com/how-to-start-a-blog/
