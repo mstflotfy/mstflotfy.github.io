@@ -13,8 +13,6 @@ Not to dumb down, but to find some entry point from which I can dig deeper. Or c
 
 I write what I want to read. I write only about things I am interested in and currently engaged with.
 
-<br>
-
 - I write about productivity and managing oneself on this website, on the [Articles page](/articles).
 - I also document the lessons I encounter while learning to code and write tutorials for the very beginner at [ dev.mstflotfy.com](https://dev.mstflotfy.com)
 - I make illustrations and designs. You can find some of my doodles and illustrations on [Instagram](https:\\instagram.com/mstflotfy) and [Pinterest](https:\\pinterest.com/mstflotfy).
