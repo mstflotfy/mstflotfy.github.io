@@ -7,7 +7,8 @@ author: Mostafa Lotfy
 section: Dev
 ---
 
-<img src="/assets/i/gitCheatSheet.jpg" alt="A git doodle." title="A git doodle I made for this article." oncontextmenu="return false;">
+![A git doodle I made for this article.](/assets/i/gitCheatSheet.jpg "Git Doodle"){:oncontextmenu="return false;"}
+
 
 **On This Page**
 
