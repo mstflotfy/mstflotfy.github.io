@@ -3,7 +3,7 @@ author:
   name: Mostafa Lotfy
   email: null
 description: > # this means to ignore newlines until "show_excerpts:"
-  Mostafa Lotfy's self-discipline and productivity blog. | This site is built with Jekyll & GitHub pages
+  Mostafa Lotfy's dev & productivity blog. | This site is built with Jekyll & GitHub pages
 
 url: https://mstflotfy.com
 
@@ -47,12 +47,15 @@ minima:
     # - username: jekyll2
     #   instance: example.com
 
+include:
+  - _pages
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-  - dev.md
-  - about.md
+  - _pages/self.md
+  - _pages/dev.md
+  - _pages/about.md
 
 
 # Build settings
