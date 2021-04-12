@@ -6,18 +6,18 @@ permalink: /about/
 
 ## **Writing**
 
-- I write articles on Web dev as I learn and explore Jamstack.
-- I write articles on productivity and self discipline as I experiment with building a productivity system for my self.
+- I write articles on Web Dev as I learn and explore Jamstack.
+- I write articles on productivity and self-discipline as I experiment with building a productivity system for myself.
 
 
 ## **Dev**
 
-- I started [mstflotfy.com](https://mstflotfy.com) while learning about web dev and jamstack. I used [Jekyll's Minima theme](https://github.com/jekyll/minima) as a template and started tinkering with it.
+- I started [mstflotfy.com](https://mstflotfy.com) while learning about web dev and Jamstack. I used [Jekyll's Minima theme](https://github.com/jekyll/minima) as a template and started tinkering with it.
 
 
 ## **Scuba Diving**
 
-- I am a scuba diving instructor, currnetly diving in [Dahab, Egypt](https://unsplash.com/s/photos/dahab). 
+- I am a scuba diving instructor, currently diving in [Dahab, Egypt](https://unsplash.com/s/photos/dahab). 
 
 
 ## **Illustration**

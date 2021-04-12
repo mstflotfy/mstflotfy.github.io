@@ -19,12 +19,4 @@ I write only about things I am interested in and currently engaged with.
     </mark>
 </h2>
 
-I document the lessons I encounter while learning to code and building this website. I try to break down and simplify those lessons as best as I could on the [ Dev page.](/dev)
-
-<h2 style="margin-top: 10px;">
-    <mark>
-        <strong>Productivity</strong>
-    </mark>
-</h2>
-
-I write about productivity and managing oneself, on the [Self page](/self). That I have not created yet! Very productive as you can see.
+I document the lessons I encounter while learning to code and while I build this website. I try to break down and simplify those lessons as best as I could on the [ Dev page.](/dev)
