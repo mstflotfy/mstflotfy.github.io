@@ -79,11 +79,11 @@ Here is a list of mini-tutorials that you'll find below
 
 1. Install Git.
 
-    ```
+    ~~~bash
 
     $ git --version     # Check to see if git is already installed on your computer. If you get a version number, it is.
 
-    ```
+    ~~~
 
     If Git is not installed, [download and install it](https://git-scm.com/downloads){:target="_blank" rel="noopener noreferrer"}.
 
