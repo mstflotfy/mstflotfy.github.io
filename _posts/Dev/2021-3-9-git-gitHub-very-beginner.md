@@ -79,7 +79,7 @@ Here is a list of mini-tutorials that you'll find below
 
 1. Install Git.
 
-    ```bash
+    ```
 
     $ git --version     # Check to see if git is already installed on your computer. If you get a version number, it is.
 
@@ -89,7 +89,7 @@ Here is a list of mini-tutorials that you'll find below
 
 2. Set username and email.
 
-    ```bash
+    ```
 
     $ cd ~                  # Navigate to your home directory.
     $ ls -a                 # List all files including hidden files.
