@@ -176,7 +176,7 @@ $ git checkout <commitHash>        # Cheackout an old commit in a headless branc
 
 ## <a name="docs"></a> **Help & Docs**
 
-[Official Git Documentation](https://git-scm.com/docs){:target="_blank"}
+[Official Git Documentation](https://git-scm.com/docs){:target="_blank" rel="noopener noreferrer"}
 
 
 {% highlight bash %}
@@ -190,10 +190,10 @@ $ git <verb> -h         # Get a short list of some options for a command.
 
 ## <a name="other"></a> **Other Cheat Sheets**
 
-- [A git cheat sheet by GitHub.](https://training.github.com/downloads/github-git-cheat-sheet/){:target="_blank"}
-- [A git cheat sheet by GitLab.](https://about.gitlab.com/images/press/git-cheat-sheet.pdf){:target="_blank"}
-- [A git cheat sheet by Tower.](https://www.git-tower.com/blog/git-cheat-sheet/){:target="_blank"}
-- [A git cheat sheet by freeCodeCamp.](https://www.freecodecamp.org/news/git-cheat-sheet/){:target="_blank"}
+- [A git cheat sheet by GitHub.](https://training.github.com/downloads/github-git-cheat-sheet/){:target="_blank" rel="noopener noreferrer"}
+- [A git cheat sheet by GitLab.](https://about.gitlab.com/images/press/git-cheat-sheet.pdf){:target="_blank" rel="noopener noreferrer"}
+- [A git cheat sheet by Tower.](https://www.git-tower.com/blog/git-cheat-sheet/){:target="_blank" rel="noopener noreferrer"}
+- [A git cheat sheet by freeCodeCamp.](https://www.freecodecamp.org/news/git-cheat-sheet/){:target="_blank" rel="noopener noreferrer"}
 
 <br>
 

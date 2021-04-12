@@ -46,11 +46,11 @@ No matter how long you think and analyze, eventually, you will find a better way
 
 First, let's get the domain name out of the way.
 
-- The domain name is the address of your blog. [mstflotfy.com](https://mstflotfy.com/){:target="_blank"} is the domain name of this blog.
+- The domain name is the address of your blog. [mstflotfy.com](https://mstflotfy.com/){:target="_blank" rel="noopener noreferrer"} is the domain name of this blog.
 
 - You more rent a domain name than buy it. It’s yours for the years you have paid for, then you need to renew. If you do not renew, it will be up for sale, and others will be able to buy it.
 
-- It does not matter where you buy it. Just find a well-known site that has good buying and renewal prices. I checked [Google Domains](https://domains.google/){:target="blank"} and [NameCheap](https://www.namecheap.com/){:target="_blank"}, but there are many other options.
+- It does not matter where you buy it. Just find a well-known site that has good buying and renewal prices. I checked [Google Domains](https://domains.google/){:target="blank"} and [NameCheap](https://www.namecheap.com/){:target="_blank" rel="noopener noreferrer"}, but there are many other options.
 
 - The domain name extension doesn’t matter much. Although it’s best to go with `.com` as it is the better-known option and easy to remember. Also, some weird extensions might be considered spammy. If `.com` is not available, go with any other familiar option.
 
@@ -61,7 +61,7 @@ First, let's get the domain name out of the way.
 
 I ended up buying the domain name from NameCheap. It had a good price with WhoisGuard included.
 
-Do not overthink where to buy it as you can transfer next year. I am considering transferring my domain name to [Cloudflare's registrar](https://www.cloudflare.com/products/registrar/){:target="_blank"} next year. They offer at cost renewal prices and other security services.
+Do not overthink where to buy it as you can transfer next year. I am considering transferring my domain name to [Cloudflare's registrar](https://www.cloudflare.com/products/registrar/){:target="_blank" rel="noopener noreferrer"} next year. They offer at cost renewal prices and other security services.
 
 <br>
 
@@ -78,9 +78,9 @@ To simplify, a host is a computer that is always connected to the internet. You 
 There are many ways to build a website. Let's narrow it down to three that anyone starting a blog should consider. I ordered those by popularity.
 
 **Three ways to build and host a blog**
-1. Host the site on a shared hosting service, like Bluehost, and build it with [WordPress](https://wordpress.org/download/){:target="_blank"}.
-2. Build and host the site on a drag and drop platform like [Wix](https://www.wix.com/){:target="_blank"}, or [Squarespace](https://www.squarespace.com/){:target="_blank"}.
-3. Build the blog with a static site generator like [Jekyll](https://jekyllrb.com/){:target="_blank"} and host it on a free static hosting service like [GitHub Pages](https://pages.github.com/){:target="_blank"}.
+1. Host the site on a shared hosting service, like Bluehost, and build it with [WordPress](https://wordpress.org/download/){:target="_blank" rel="noopener noreferrer"}.
+2. Build and host the site on a drag and drop platform like [Wix](https://www.wix.com/){:target="_blank" rel="noopener noreferrer"}, or [Squarespace](https://www.squarespace.com/){:target="_blank" rel="noopener noreferrer"}.
+3. Build the blog with a static site generator like [Jekyll](https://jekyllrb.com/){:target="_blank" rel="noopener noreferrer"} and host it on a free static hosting service like [GitHub Pages](https://pages.github.com/){:target="_blank" rel="noopener noreferrer"}.
 
 <br>
 
@@ -88,21 +88,21 @@ There are many ways to build a website. Let's narrow it down to three that anyon
 
 #### <strong>What is WordPress?</strong>
 
-  - WordPress is a free [CMS](https://en.wikipedia.org/wiki/Content_management_system){:target="_blank"} (content management system) software. It allows you to manage the content of your site without dealing with code. WordPress is the first option I considered, and it seems to be the most popular way to build a website.
+  - WordPress is a free [CMS](https://en.wikipedia.org/wiki/Content_management_system){:target="_blank" rel="noopener noreferrer"} (content management system) software. It allows you to manage the content of your site without dealing with code. WordPress is the first option I considered, and it seems to be the most popular way to build a website.
 
 #### <strong>What are the pros of WordPress?</strong>
 
-  - It has many [plugins](https://en.wikipedia.org/wiki/WordPress#Plugins){:target="_blank"}. A plugin is a bit of code that can be uploaded to your website to extend its functionality without writing the code yourself.
+  - It has many [plugins](https://en.wikipedia.org/wiki/WordPress#Plugins){:target="_blank" rel="noopener noreferrer"}. A plugin is a bit of code that can be uploaded to your website to extend its functionality without writing the code yourself.
   - It has many themes. You can start immediately with your website without much knowledge of coding or design.
 
 #### <strong>What are the cons of WordPress?</strong>
   - It could get bloated and slow.
   - It has a learning curve.
   - You might need to tweak the code of the themes and plugins to get them to work.
-  - It’s [not the most secure](https://www.cloudways.com/blog/wordpress-security-issues-and-fixes/){:target="_blank"} option.
+  - It’s [not the most secure](https://www.cloudways.com/blog/wordpress-security-issues-and-fixes/){:target="_blank" rel="noopener noreferrer"} option.
 
 #### <strong>What is shared hosting?</strong>
-  - [Shared hosting](https://en.wikipedia.org/wiki/Shared_web_hosting_service){:target="_blank"} is sharing a server with other websites to reduce the price.
+  - [Shared hosting](https://en.wikipedia.org/wiki/Shared_web_hosting_service){:target="_blank" rel="noopener noreferrer"} is sharing a server with other websites to reduce the price.
 
 #### <strong>What are the pros of shared hosting?</strong>
   - The main benefit is the lower costs.
@@ -137,7 +137,7 @@ When I got overwhelmed, I started thinking about drag and drop site builders. It
 
 ### <strong>3. Free hosting for static websites</strong>
 
-I finally stumbled on [GitHub Pages](https://pages.github.com/){:target="_blank"}.
+I finally stumbled on [GitHub Pages](https://pages.github.com/){:target="_blank" rel="noopener noreferrer"}.
 
 Github Pages has free hosting! But this free hosting is for static websites only.
 
@@ -152,7 +152,7 @@ I had no idea what those were as well.
 
 #### <strong>What are the cons of a static website?</strong>
   - Working with a text editor and the command line and the need to tinker with code will put off most people.
-  - To add dynamic functionality like comments or contact forms, the beginner will have to resort to and depend on a third party, like [Disqus](https://disqus.com/){:target="_blank"}.
+  - To add dynamic functionality like comments or contact forms, the beginner will have to resort to and depend on a third party, like [Disqus](https://disqus.com/){:target="_blank" rel="noopener noreferrer"}.
 
 #### <strong>What are the benefits of a static website?</strong>
   - It is generally faster and more stable than WordPress.
@@ -161,13 +161,13 @@ I had no idea what those were as well.
   - Static websites are Cheaper to host as they use fewer resources.
 
 #### <strong>GitHub Pages</strong>
-  - [GitHub](https://github.com/){:target="_blank"} is a well-known website used by developers to store their projects online.
+  - [GitHub](https://github.com/){:target="_blank" rel="noopener noreferrer"} is a well-known website used by developers to store their projects online.
   - GitHub Pages is a service from GitHub that allows users to host a static website for free.
   - GitHub Pages is not the only service that provides free hosting for static websites. There are many other options, including GitLab Pages, Cloudflare Pages, and Netlify.
 
 #### <strong>Static Site Generators</strong>
   - Static site generators take your text files and turn them into a static website, that can be hosted on services like GitHub Pages.
-  - Jekyll is the first static site generator I came across. But there are [many other static site generators](https://jamstack.org/generators/){:target="_blank"}.
+  - Jekyll is the first static site generator I came across. But there are [many other static site generators](https://jamstack.org/generators/){:target="_blank" rel="noopener noreferrer"}.
 
   <br>
 

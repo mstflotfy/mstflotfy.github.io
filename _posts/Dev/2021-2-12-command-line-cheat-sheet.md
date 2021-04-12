@@ -6,7 +6,7 @@ author: Mostafa Lotfy
 section: Dev
 ---
 
-This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank"}
+This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank" rel="noopener noreferrer"}
 
 
 ## **Navigate**

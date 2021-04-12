@@ -6,7 +6,7 @@ author: Mostafa Lotfy
 section: Dev
 ---
 
-This article is a follow up to [How To Start A Blog](/dev/how-to-start-a-blog/){:target="_blank"}, where I go through the reasons I choose [Jekyll](https://jekyllrb.com/){:target="_blank"} and [GitHub Pages](https://pages.github.com/){:target="_blank"} to build my blog and the other options I considered.
+This article is a follow up to [How To Start A Blog](/dev/how-to-start-a-blog/){:target="_blank" rel="noopener noreferrer"}, where I go through the reasons I choose [Jekyll](https://jekyllrb.com/){:target="_blank" rel="noopener noreferrer"} and [GitHub Pages](https://pages.github.com/){:target="_blank" rel="noopener noreferrer"} to build my blog and the other options I considered.
 
 Here is a part of its recap:
 
@@ -28,8 +28,8 @@ Head to each of the following pages and give it a quick read.
 
 Do not be overwhelmed. This is an opportunity to know about things you otherwise would avoid. And perhaps some of those things might become your everyday tools in the future and transform the way you deal with your computer!
 
-- [The Command-Line.](/dev/command-line-very-beginner/){:target="_blank"}<br>
-- [Git & GitHub.](/dev/git-github-tutorial-very-beginner/){:target="_blank"}<br>
+- [The Command-Line.](/dev/command-line-very-beginner/){:target="_blank" rel="noopener noreferrer"}<br>
+- [Git & GitHub.](/dev/git-github-tutorial-very-beginner/){:target="_blank" rel="noopener noreferrer"}<br>
 - `Jekyll. (This article is coming soon)`<br>
 - `Markdown. (This article is coming soon)`<br>
 

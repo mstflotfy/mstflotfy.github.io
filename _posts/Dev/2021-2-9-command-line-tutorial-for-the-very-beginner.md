@@ -6,11 +6,11 @@ author: Mostafa Lotfy
 section: Dev
 ---
 
-This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank"}
+This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank" rel="noopener noreferrer"}
 
-The commands in this tutorial work on Mac and Linux. If you are using Windows, you will have to look up [how to install bash on Windows.](https://duckduckgo.com/?q=how+to+install+bash+on+windows&t=h_&ia=web){:target="_blank"}
+The commands in this tutorial work on Mac and Linux. If you are using Windows, you will have to look up [how to install bash on Windows.](https://duckduckgo.com/?q=how+to+install+bash+on+windows&t=h_&ia=web){:target="_blank" rel="noopener noreferrer"}
 
-There is no need to memorize any command. Understand what each one does and how to use it. Then use a [cheat sheet](/dev/command-line-cheat-sheet/){:target="_blank"} when you get stuck. After a while, you will memorize the commands you repeatedly use.
+There is no need to memorize any command. Understand what each one does and how to use it. Then use a [cheat sheet](/dev/command-line-cheat-sheet/){:target="_blank" rel="noopener noreferrer"} when you get stuck. After a while, you will memorize the commands you repeatedly use.
 
 ## Outline
 

@@ -8,16 +8,16 @@ section: Dev
 ---
 
 
-Git and GitHub are necessary skills to create your Jekyll website and add content to it. This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank"} Here is the full list of skills you need to get familiar with before starting the step by step guide:
+Git and GitHub are necessary skills to create your Jekyll website and add content to it. This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank" rel="noopener noreferrer"} Here is the full list of skills you need to get familiar with before starting the step by step guide:
 
-1. [The Command-Line.](/dev/command-line-very-beginner/){:target="_blank"}<br>
+1. [The Command-Line.](/dev/command-line-very-beginner/){:target="_blank" rel="noopener noreferrer"}<br>
 2. **Git & GitHub** <br>
 3. `Markdown. (This post is coming soon)`<br>
 4. `Jekyll. (This post is coming soon)`<br>
 
 ## **Why learn Git?**
 
-**To host your website for free on [GitHub Pages](https://pages.github.com/){:target="_blank"}.** You need to learn how to use Git locally (on your computer), then to push (upload) your work to GitHub, which will then bring the changes you made locally to your website. Later on, making changes to your website will not take much effort. You will have a simple workflow--you will open your text editor, make changes, then use a couple of short terminal commands, and these changes will go live.
+**To host your website for free on [GitHub Pages](https://pages.github.com/){:target="_blank" rel="noopener noreferrer"}.** You need to learn how to use Git locally (on your computer), then to push (upload) your work to GitHub, which will then bring the changes you made locally to your website. Later on, making changes to your website will not take much effort. You will have a simple workflow--you will open your text editor, make changes, then use a couple of short terminal commands, and these changes will go live.
 
 Other reasons to learn Git:
   - **Use git branches to experiment** fast without messing up your main work.
@@ -57,7 +57,7 @@ When you work on your computer, your git folders are known as local repositories
 
 The best way to eliminate the confusion is to go ahead and try git, then things should start to make more sense.
 
-Git is a command-line tool. Therefore **this tutorial is dependent on understanding the command line basics.** If you have not already, go through [the command line tutorial for the very beginner](/dev/command-line-very-beginner){:target="_blank"} before you start. Otherwise, you will feel lost. If you're already familiar with the command line, you can [refer to the command line cheat sheet](/dev/command-line-cheat-sheet/){:target="_blank"} if you need to.
+Git is a command-line tool. Therefore **this tutorial is dependent on understanding the command line basics.** If you have not already, go through [the command line tutorial for the very beginner](/dev/command-line-very-beginner){:target="_blank" rel="noopener noreferrer"} before you start. Otherwise, you will feel lost. If you're already familiar with the command line, you can [refer to the command line cheat sheet](/dev/command-line-cheat-sheet/){:target="_blank" rel="noopener noreferrer"} if you need to.
 
 **Any folder that you have on your computer you can track with git.**
 
@@ -81,7 +81,7 @@ Here is a list of mini-tutorials that you'll find below
 
         $ git --version       # Check to see if git is already installed on your computer. If you get a version number, it is.
 
-    If Git is not installed, [download and install it](https://git-scm.com/downloads){:target="_blank"}.
+    If Git is not installed, [download and install it](https://git-scm.com/downloads){:target="_blank" rel="noopener noreferrer"}.
 
 2. Set username and email.
 
@@ -98,13 +98,13 @@ Here is a list of mini-tutorials that you'll find below
 
 3. Create a GitHub account.
 
-    Finally, [Create a GitHub account.](https://github.com/join){:target="_blank"}
+    Finally, [Create a GitHub account.](https://github.com/join){:target="_blank" rel="noopener noreferrer"}
 
     Your email must be the same one you set on Git! Double-check to make sure they are identical! To avoid linking issues between your local and remote repositories.
 
     When you push (upload) your work to your remote repository hosted on GitHub, you will be prompted in the command-line for a username and password. For security reasons, GitHub uses something called a personal access token in place of a password. This is a code that you can generate through your GitHub account. It gives you access to control your GitHub repositories using applications, including git.
 
-    To create a personal access token, follow [this short and easy guide by GitHub.](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token#creating-a-token){:target="_blank"}. You'll be presented with multiple checkboxes. It's enough to tick the repo box.
+    To create a personal access token, follow [this short and easy guide by GitHub.](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token#creating-a-token){:target="_blank" rel="noopener noreferrer"}. You'll be presented with multiple checkboxes. It's enough to tick the repo box.
 
 
 ### <a name="start-locally"></a> Start working with git Locally
@@ -210,7 +210,7 @@ Only committed changes will be pushed. This means that untracked, modified, and 
 
 6. **Create a new empty GitHub repo**
 
-    [Follow the `Create a repository` part in this guide by GitHub.](https://guides.github.com/activities/hello-world/#repository){:target="_blank"}
+    [Follow the `Create a repository` part in this guide by GitHub.](https://guides.github.com/activities/hello-world/#repository){:target="_blank" rel="noopener noreferrer"}
 
 7. **Connect your local folder to your new GitHub repo**
 
@@ -237,7 +237,7 @@ You'll make changes online on GitHub then pull those changes to your local repo.
 
 9. **Make a commit in your remote GitHub repo**
 
-    Go to your GitHub repo. You'll find all the files you've committed locally and pushed. Click on one of the files and follow the [Make a commit section in this GitHub Guide](https://guides.github.com/activities/hello-world/#commit){:target="_blank"}
+    Go to your GitHub repo. You'll find all the files you've committed locally and pushed. Click on one of the files and follow the [Make a commit section in this GitHub Guide](https://guides.github.com/activities/hello-world/#commit){:target="_blank" rel="noopener noreferrer"}
 
     It does not matter what you write, just add text to the file and make a commit.
 
@@ -449,17 +449,17 @@ Cloning a repository is like downloading it. It will create a local git reposito
 
     Go to the page of any public repository, that you do not own, and press the `fork` button.
 
-    If you don't have a repo you want to fork. You can fork the repository of my [Jekyll website.](https://github.com/mstflotfy/mstflotfy.github.io){:target="_blank"}
+    If you don't have a repo you want to fork. You can fork the repository of my [Jekyll website.](https://github.com/mstflotfy/mstflotfy.github.io){:target="_blank" rel="noopener noreferrer"}
 
 
 2. Turn your fork into a template
 
-    Go to the settings of the repository. Under the repository check the `Template repository` checkbox. You can follow [this guide by GitHub](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-template-repository){:target="_blank"}.
+    Go to the settings of the repository. Under the repository check the `Template repository` checkbox. You can follow [this guide by GitHub](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-template-repository){:target="_blank" rel="noopener noreferrer"}.
 
 
 3. Create a new repo from the template
 
-    Go to the main page of the repo, by clicking on its name, or on the `< > code` button. Then click on the green button `Use this template`. Then, it's like creating a new repository. [More on this.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template){:target="_blank"}
+    Go to the main page of the repo, by clicking on its name, or on the `< > code` button. Then click on the green button `Use this template`. Then, it's like creating a new repository. [More on this.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template){:target="_blank" rel="noopener noreferrer"}
 
     Now notice only one initial commit is shown.
 
@@ -483,13 +483,13 @@ Cloning a repository is like downloading it. It will create a local git reposito
 ## **Still confused?**
 Other resources I found useful.
 
-[GitHub Official Guides](https://guides.github.com/){:target="_blank"}<br>
-[Pro Git Book](https://www.git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#ch02-git-basics-chapter){:target="_blank"} <br>
-[A step by step intro to Git](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/){:target="_blank"} <br>
-[A quick youtube video that shows the git workflow](https://www.youtube.com/watch?v=USjZcfj8yxE){:target="_blank"} <br>
-[Youtube video explaining the workflow between git and gitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s){:target="_blank"}<br>
-[Youtube video explaining git and showing workflow](https://www.youtube.com/watch?v=HVsySz-h9r4){:target="_blank"}<br>
-[Bitbucket Git Tutorials](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud){:target="_blank"}<br>
+[GitHub Official Guides](https://guides.github.com/){:target="_blank" rel="noopener noreferrer"}<br>
+[Pro Git Book](https://www.git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#ch02-git-basics-chapter){:target="_blank" rel="noopener noreferrer"} <br>
+[A step by step intro to Git](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/){:target="_blank" rel="noopener noreferrer"} <br>
+[A quick youtube video that shows the git workflow](https://www.youtube.com/watch?v=USjZcfj8yxE){:target="_blank" rel="noopener noreferrer"} <br>
+[Youtube video explaining the workflow between git and gitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s){:target="_blank" rel="noopener noreferrer"}<br>
+[Youtube video explaining git and showing workflow](https://www.youtube.com/watch?v=HVsySz-h9r4){:target="_blank" rel="noopener noreferrer"}<br>
+[Bitbucket Git Tutorials](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud){:target="_blank" rel="noopener noreferrer"}<br>
 
 <br>
 
