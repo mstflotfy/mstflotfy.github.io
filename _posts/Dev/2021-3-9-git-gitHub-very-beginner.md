@@ -79,11 +79,11 @@ Here is a list of mini-tutorials that you'll find below
 
 1. Install Git.
 
-    ~~~bash
+    ```
 
     $ git --version     # Check to see if git is already installed on your computer. If you get a version number, it is.
 
-    ~~~
+    ```
 
     If Git is not installed, [download and install it](https://git-scm.com/downloads){:target="_blank" rel="noopener noreferrer"}.
 
@@ -127,7 +127,7 @@ You will create a new folder, turn it into a git repository, create files inside
 
 1. **Create a new folder**<br>
 
-    ```bash
+    ```
 
     $ cd ~/documents    # Navigate to documents
     $ mkdir git-demo    # Create   a new folder and call it `git-demo`
@@ -139,14 +139,14 @@ You will create a new folder, turn it into a git repository, create files inside
 
     To turn any folder on your computer into a git repository, navigate to the folder using the terminal and run the `$ git init` command.
 
-    ```bash
+    ```
 
     $ git init          # This will initialize your folder and turn it into a git repository.
 
     ```
     When git is initialized, a `.git` hidden folder is created.
 
-    ```bash
+    ```
 
     $ ls -a               # You will find a hidden .git folder has been created. This means that Git is now tracking your folder.
 
@@ -154,7 +154,7 @@ You will create a new folder, turn it into a git repository, create files inside
 
 3. **Check the state of the files in your folder**
 
-    ```bash
+    ```
 
     $ git status        # Show the state of files inside your git repo.
 
@@ -177,7 +177,7 @@ You will create a new folder, turn it into a git repository, create files inside
 
     Create some empty text files inside your folder.
 
-    ```bash
+    ```
 
     $ touch index.md about.md blog.md
 
@@ -189,7 +189,7 @@ You will create a new folder, turn it into a git repository, create files inside
 
     Check the status again. And note the difference.
 
-    ```bash
+    ```
 
     $ git status     # You have three untracked files, nothing stagged (prepared to be committed), and nothing committed.
 
@@ -197,7 +197,7 @@ You will create a new folder, turn it into a git repository, create files inside
 
 5. **Add files to git**
 
-    ```bash
+    ```
 
     $ git add *
 
@@ -211,7 +211,7 @@ You will create a new folder, turn it into a git repository, create files inside
 
 6. **Make your very first commit!**
 
-    ```bash
+    ```
 
     $ git commit -m "initial commit"        # commit all stagged files with the commit message "initial commit"
 
@@ -226,7 +226,7 @@ You will create a new folder, turn it into a git repository, create files inside
 
     Now check the status and log, again!
 
-    ```bash
+    ```
          
     $ git status    # You have no stagged files and no untracked files.
 
@@ -234,7 +234,7 @@ You will create a new folder, turn it into a git repository, create files inside
 
     To check all commits you've made in this repo:
 
-    ```bash
+    ```
 
      $ git log   # You have one commit.
 
@@ -262,7 +262,7 @@ Only committed changes will be pushed. This means that untracked, modified, and 
 
     Copy the URL of your new GitHub repository. After the command `$ git remote add`, name your remote repo, then paste the URL.
 
-    ```bash
+    ```
 
     $ git remote add origin https://github.com/mstflotfy/gitHubTutorial
 
@@ -272,7 +272,7 @@ Only committed changes will be pushed. This means that untracked, modified, and 
 
 8. **Push your commits to the remote repo on GitHub**
 
-    ```bash
+    ```
 
     $ git push -u origin master
 
@@ -301,7 +301,7 @@ You'll make changes online on GitHub then pull those changes to your local repo.
 
     Ues `$ git status`, and you'll notice that the local folder is unaware of the changes you made online to your remote repo. As it will say that your branch is up to date with origin/master, which is the main branch in your remote GitHub repo.
 
-    ```bash
+    ```
 
     $ git fetch     # Fetch the changes but do not commit them yet.
 
@@ -309,7 +309,7 @@ You'll make changes online on GitHub then pull those changes to your local repo.
 
     Git fetch does not pull the changes but makes your local folder aware of them so that you can either apply them or ignore them.
 
-    ```bash
+    ```
 
     $ git diff master origin/master    # Compare the local branch master to the remote branch origin/master
 
@@ -323,7 +323,7 @@ You'll make changes online on GitHub then pull those changes to your local repo.
 
     Merge the commits you made on GitHub to your local repo.
 
-    ```bash
+    ```
 
     $ git merge
 
@@ -347,13 +347,13 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
     To create a new branch just type the command `$ git branch` followed by the name you want to give your new branch.
 
-    ```bash
+    ```
 
     $ git branch test         # create a new branch and call it `test`.
 
     ```
 
-    ```bash
+    ```
 
     $ git branch              # Display all local branches.
 
@@ -363,7 +363,7 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
 12. **Switch to the new branch**
 
-    ```bash
+    ```
 
     $ git switch test         # You'll switch to the test branch. If you use `git branch`, you'll find `test` in green and marked with a star.
 
@@ -371,7 +371,7 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
 13. **Make a commit in the new branch**
 
-    ```bash
+    ```
 
     $ touch test.md
 
@@ -383,7 +383,7 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
     Make sure you're at the `test` branch, then add and commit the `test.md`.
 
-    ```bash
+    ```
 
     $ git add test.md
     $ git commit -m "Create an empty file at test branch"
@@ -398,7 +398,7 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
     To bring changes to a branch from other branches switch to the branch you want to bring changes into, and type the name of the branch you want to bring changes from after the command `git merge`
 
-    ```bash
+    ```
 
     $ git switch master     # Switch to the master branch.
     $ git merge test        # Merge branch test into master.
@@ -417,14 +417,14 @@ Conflicts happen when you change the same parts of the same file differently in 
 
 1. create a new branch and call it `conflict`
 
-    ```bash
+    ```
     $ git branch conflict
 
     ```
 
 2. Switch the `conflict` branch.
 
-    ```bash
+    ```
 
     $ git switch conflict
 
@@ -436,14 +436,14 @@ Conflicts happen when you change the same parts of the same file differently in 
 
     Either `$ open test.md` and write down a line of text in it, then save and close. Or just use the `echo` command to insert a line of text in it.
 
-    ```bash
+    ```
 
     $ echo "Here is some text" >> test.md
 
     ```
 4. Add and commit the change in the `conflict` branch
 
-    ```bash
+    ```
 
     $ git add *
     $ git commit -m "Add some text to create a conflict"
@@ -456,7 +456,7 @@ Conflicts happen when you change the same parts of the same file differently in 
 
 6. Add a different line of text.
 
-    ```bash
+    ```
 
     $ echo "Here is some conflicting text" >> text.md
 
@@ -467,7 +467,7 @@ Conflicts happen when you change the same parts of the same file differently in 
 
  7. Try to merge the `conflict` branch into the master branch
 
-    ```bash
+    ```
 
     $ git merge conflict
 
@@ -501,7 +501,7 @@ Conflicts happen when you change the same parts of the same file differently in 
 
     Now, you need to add and commit your resolved conflict in the master branch.
 
-    ```bash
+    ```
 
     $ git add test.md
     $ git commit -m "resolved merge conflict"
@@ -521,7 +521,7 @@ When you make a commit, you make a version of the current folder that you can ch
 
 1. **List previous commits**
 
-    ```bash
+    ```
 
     $ git log       # shows a list of all commits.
 
@@ -535,7 +535,7 @@ When you make a commit, you make a version of the current folder that you can ch
 
     Paste the number after the `$ git checkout` command using `cmd + v`
 
-    ```bash
+    ```
 
     $ git checkout pasteTheNubmerHere
 
@@ -551,7 +551,7 @@ When you make a commit, you make a version of the current folder that you can ch
 
     If you want to keep the changes, you will need to create a new branch to save them in:
 
-    ```bash
+    ```
     $ git switch -c newBranch    # This will create a new branch, called newBranch, and save the version you're checking out in it.
     ```
 
@@ -598,7 +598,7 @@ Cloning a repository is like downloading it. It will create a local git reposito
 
     Using the terminal, navigate to the folder where you want to place the repo that you will clone. Let's say to Documents. `$ cd ~/Documents`
 
-    ```bash
+    ```
 
     $ git clone pasteUrlHere
 

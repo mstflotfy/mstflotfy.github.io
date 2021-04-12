@@ -59,12 +59,14 @@ You will use the command line to navigate through the files and folders on your 
 #### **$ ls**
 `ls` is short for list. Write it after the `$` sign to get a list of all files and folders in the directory where your terminal is open. The result should look something like this:
 
-{% highlight bash %}
+```
+
 $ ls
 Applications		Desktop			Downloads		Movies			Pictures		Tresors			progRelated.kdbx
 Creative Cloud Files	Documents		Library			Music			Public			iCloud Drive (Archive)
 $ |
-{% endhighlight %}
+
+```{% 
 
 Command outputs have no `$` sign before them. A new line will appear after the list, starting with the `$` sign, where you can type a new command.
 
@@ -74,9 +76,11 @@ Using a Mac, if you want to create a hidden file, you just add a `.` before its 
 
 An option is preceded by a dash ( `-` ). To show your hidden files in the list, you will add the `-a` option to your command. Like this:
 
-{% highlight bash %}
+```
+
 $ ls -a
-{% endhighlight %}
+
+```{% 
 
 The hidden files will be listed with a `.` before their name.
 
@@ -88,23 +92,29 @@ Now list all the files and folders in your current working directory using the `
 
 `cd` is short for change directory.
 
-{% highlight bash %}
+```
+
 $ cd Destination
-{% endhighlight %}
+
+```{% 
 
 After the `$` sign, write the command `cd`. `$ cd` by itself does nothing. It needs a destination to change to.
 
 To navigate to a folder inside your working directory,  just type its name. You are in the home directory. If you want to change the folder your terminal is working at to the Documents folder, you can use this command:
 
-{% highlight bash %}
+```
+
 $ cd Documents
-{% endhighlight %}
+
+```{% 
 
 If you want to change the directory/folder to home again, you can write `..` after `cd` as the destination. It is a bit like tapping back on mac and more like tapping up in Windows when navigating your folders using the user interface.
 
-{% highlight bash %}
+```
+
 $ cd ..
-{% endhighlight %}
+
+```{% 
 
 Get familiar with this way of navigation. Using `$ ls` to see what files and folders are inside the current working directory, `$ cd folderName` then `$ cd .. ` to move back.
 
@@ -112,9 +122,11 @@ Now, what if you navigate to Documents, then to another folder inside Documents,
 
 Instead of doing that, you can simply use this command to change to the home directory from anywhere you are:
 
-{% highlight bash %}
+```
+
 $ cd ~
-{% endhighlight %}
+
+```{% 
 
 Remember that to navigate to a folder, you need to write a destination. When that folder is inside your current working directory, you just type its name. If the folder is in a different directory, you need to provide a destination or a path to your desired folder.
 
@@ -153,19 +165,23 @@ You can also right-click on any folder and choose `New Terminal at Folder`, or t
 
 `pwd` stands for print working directory. What `pwd` does is show you the destination of the folder your terminal is open at. This will be your working directory--the commands you write will mainly apply to the files and folders inside it.
 
-{% highlight bash %}
+```
+
 $ pwd
-{% endhighlight %}
+
+```{% 
 
 Write the command `pwd` just after the `$` sign. <br>
 
 A new line will appear under your command with its output. It should look something like this:<br>
 
-{% highlight bash %}
+```
+
 $ pwd
 /Users/yourUserName/
 $ |
-{% endhighlight %}
+
+```{% 
 
 Whenever you are not sure where you are, just write the `pwd` command.
 
@@ -191,9 +207,11 @@ Now that you are familiar with different commands to use as examples. Let's brea
 `ls -a` is a command that has an option `-a`.<br>
 `ls` lists files and folders inside our working directory, and `-a` is an option that includes hidden files in our list.
 
-{% highlight bash %}
+```
+
 $ cd ~/Documents
-{% endhighlight %}
+
+```{% 
 `cd` is the command, but it needs an argument (input). It needs a destination to change the working directory to,  `~/Documents` is the argument that the command requires.
 
 Multiple options and arguments could be put together.
@@ -205,9 +223,11 @@ Here `ls` is the command, and Documents is the argument, which is the input to t
 
 You are still at the `~` directory. List the elements inside of `Documents` again, but include the hidden files in the list this time.
 
-{% highlight bash %}
+```
+
 ls -a Documents
-{% endhighlight %}
+
+```{% 
 
 `ls` is the command that will list files and folders in your current working directory. While`-a` is an option that tells the terminal to include hidden files as well in the list.  `Documents` is an argument that makes the terminal apply the command on the `Documents` folder instead of the current working directory.
 
@@ -220,48 +240,60 @@ ls -a Documents
 Now that you can navigate. Let's learn how to do quick edits to text files.
 
 #### **$ cat**
-{% highlight bash %}
+```
+
 $ cat newFile.txt
-{% endhighlight %}
+
+```{% 
 
 This command will display the content of a text file inside the terminal. A quick way to examine the content of text files without a need to open the file itself.
 
 
 #### **$ touch**
-{% highlight bash %}
+```
+
 $ touch newFile.txt
-{% endhighlight %}
+
+```{% 
 
 This command will create a new empty text file with the name you type after it, inside the current working directory off course.
 
 To create a new empty text file in a different directory, you need to add a destination:
 
-{% highlight bash %}
+```
+
 $ touch ~/Desktop/newFile.txt
-{% endhighlight %}
+
+```{% 
 
 This command will create a new empty text file called `newFile` in the Desktop directory.
 
 
 Check if the file has been created. Get a list of all files and folders on your Desktop using this command:
 
-{% highlight bash %}
+```
+
 $ ls ~/desktop
-{% endhighlight %}
+
+```{% 
 
 
 #### **$ open**
-{% highlight bash %}
+```
+
 $ open fileName.txt
-{% endhighlight %}
+
+```{% 
 
 `Open` is a command that can be used on files or folders. This command will take you away from the command line to a new window of the file you chose to open. You can navigate back to the command line using `cmd + tab`.
 
 To open the newFile.txt you just created in the `Desktop` folder, use this command:
 
-{% highlight bash %}
+```
+
 $ open ~/desktop/fileName.txt
-{% endhighlight %}
+
+```{% 
 
 Edit the text file, when done press `cmd + s` to save, close it, then use `cmd + tab` to return to the terminal. This is useful if you want to do a quick edit to a text file.
 
@@ -273,9 +305,11 @@ When opening a file, that's in the current working directory, all you need to do
 
 If you want to open a file that is in another directory, you can write a destination like this:
 
-{% highlight bash %}
+```
+
 $ open ~/Documents/Books/file.pdf
-{% endhighlight %}
+
+```{% 
 
 More likely, you will not know the file name, but you might know its destination. In that case, you might navigate to its destination first:
 `cd ~/Documents/Books`
@@ -292,9 +326,11 @@ And the Books folder will open in Finder.
 
 
 #### **$ nano**
-{% highlight bash %}
+```
+
 $ nano fileName
-{% endhighlight %}
+
+```{% 
 
 We can use nano to read text files or create new text files. If the name we write after nano exists in the current working directory, it will open the file. Otherwise, it will create a new file.
 
@@ -306,9 +342,11 @@ Then you will be prompted again to choose a name for the file. Just press enter,
 
 Use nano on the newFile.txt you created on the Desktop. Either navigate first to the Desktop then use `$ nano newFile.txt` the file or just open it in one line since you already know it's there:
 
-{% highlight bash %}
+```
+
 $ nano ~/desktop/newFile.txt
-{% endhighlight %}
+
+```{% 
 
 Write anything you want and then press `ctrl + X`, read the prompt, and then press 'Y'. Read the prompt, then press: enter.
 
@@ -327,9 +365,11 @@ To open a folder in Finder, type `$ open FolderName`.
 I find it useful to open the terminal and Finder in windows next to each other and use whichever I feel is more productive for the task. It does help when organizing to see what your commands are doing.
 
 #### **$ mkdir**
-{% highlight bash %}
+```
+
 $ mkdir newFolderName
-{% endhighlight %}
+
+```{% 
 
 `mkdir` stands for make directory. It creates new folders. Obviously, it needs a name for the folder to be created, which we will write after the `mkdir` command.
 
@@ -337,29 +377,37 @@ If you want to create a folder in a different directory, then you will need to a
 
 Create a folder called newFolder inside `Documents`. Either navigate to Documents first using `$ cd Documents`, then create the folder using `$ mkdir newFolder` or just type this command:
 
-{% highlight bash %}
+```
+
 $ mkdir ~/Documents/newFolder
-{% endhighlight %}
+
+```{% 
 
 If you want to see if the folder is actually created, you can use `$ ls` if you're already in the Documents directory or anywhere you are type this:
 
-{% highlight bash %}
+```
+
 $ ls ~/Documents
-{% endhighlight %}
+
+```{% 
 
 #### **$ rm-r**
-{% highlight bash %}
+```
+
 $ rm -r folderName
-{% endhighlight %}
+
+```{% 
 
 `rm` stands for remove. It is used to delete files. Adding the option `-r` to it will also make it delete folders with everything in them. Therefore you should be careful when using it as it will delete a folder with all the files and folders inside it without asking for confirmation.
 
 Using `mkdir`, create multiple folders within each other.  Then remove all of them with the `rm -r` command.
 
 #### **$ mv**
-{% highlight bash %}
+```
+
 $ mv oldName newName
-{% endhighlight %}
+
+```{% 
 
 `mv` stands for move. We can use it to cut and paste a file or folder. We can also use it to rename.
 
@@ -397,9 +445,11 @@ or
 
 
 #### **$ cp**
-{% highlight bash %}
+```
+
 $ cp fileName Destination
-{% endhighlight %}
+
+```{% 
 `cp` is to copy. Again you can think abou it this way `$ cp source destination`.
 
 Navigate to the Desktop folder:
@@ -420,9 +470,11 @@ The cp command, by default, works on files. If you want to copy folders, add the
 `-R` option to the command like this example: `$ cp -R folder1 ~/Documents/folder1`
 
 #### **$ du**
-{% highlight bash %}
+```
+
 $ du -sh *
-{% endhighlight %}
+
+```{% 
 
 `du` stands for disk usage.
 
@@ -435,9 +487,11 @@ If you write the command without`*` you will get the total size of the current w
 ## **Be More Efficient**
 
 #### **Wildcards**
-{% highlight bash %}
+```
+
 $ cd  Doc*
-{% endhighlight %}
+
+```{% 
 
 The `*` sign is called a wildcard.
 
@@ -474,9 +528,11 @@ Be careful if you use mv and rm with wildcards. If you do something like this: `
 
 #### **Aliases**
 
-{% highlight bash %}
+```
+
 $ alias jkld='bunlde exec jekyll serve -drafts'
-{% endhighlight %}
+
+```{% 
 
 An alias is a shortcut to a command. Instead of typing the command, you set an alias to write a shorter version.
 
@@ -546,9 +602,11 @@ You'll need to restart or open a new tab to see changes.
 
 #### **Dealing with spaces**
 
-{% highlight bash %}
+```
+
 $ cd 'folder Name'
-{% endhighlight %}
+
+```{% 
 
 
 If there is a file or folder that has space in their name, for example: `file 1.txt` instead of `file1.txt` you can wrap their name like this: ``'file 1.txt'``
@@ -559,9 +617,11 @@ Here's another example:
 
 #### **$ man**
 
-{% highlight bash %}
+```
+
 $ man du
-{% endhighlight %}
+
+```{% 
 
 Use `$ man anyCommand` to go to the manual and understand how it works. It will be unreadable and complicated at first, and you will think it's useless. But in time, you will get used to it, and it will be handy.
 
