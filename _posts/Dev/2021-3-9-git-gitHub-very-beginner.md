@@ -79,22 +79,33 @@ Here is a list of mini-tutorials that you'll find below
 
 1. Install Git.
 
-        $ git --version       # Check to see if git is already installed on your computer. If you get a version number, it is.
+    ```bash
+
+    $ git --version     # Check to see if git is already installed on your computer. If you get a version number, it is.
+
+    ```
 
     If Git is not installed, [download and install it](https://git-scm.com/downloads){:target="_blank" rel="noopener noreferrer"}.
 
 2. Set username and email.
 
-        $ cd ~                  # Navigate to your home directory.
-        $ ls -a                 # List all files including hidden files.
-        $ open .gitconfig       # Open the hidden file .gitconfig in a text editor.
+    ```bash
+
+    $ cd ~                  # Navigate to your home directory.
+    $ ls -a                 # List all files including hidden files.
+    $ open .gitconfig       # Open the hidden file .gitconfig in a text editor.
+
+    ```
 
     Add your user name and email to the `.gitconfig` text-file, then save and exit. The file should look like this:
 
-        [user]
-          name = your-user-name
-          email = your-email
+    ```text
 
+    [user]
+        name = your-user-name
+        email = your-email
+        
+    ```
 
 3. Create a GitHub account.
 
@@ -116,25 +127,38 @@ You will create a new folder, turn it into a git repository, create files inside
 
 1. **Create a new folder**<br>
 
-          $ cd ~/documents    # Navigate to documents
-          $ mkdir git-demo    # Create   a new folder and call it `git-demo`
-          $ cd git-demo       # Navigate to your new `git-demo` folder.
+    ```bash
 
+    $ cd ~/documents    # Navigate to documents
+    $ mkdir git-demo    # Create   a new folder and call it `git-demo`
+    $ cd git-demo       # Navigate to your new `git-demo` folder.
+
+    ```
 
 2. **Turn the folder into a git repository**
 
     To turn any folder on your computer into a git repository, navigate to the folder using the terminal and run the `$ git init` command.
 
-        $ git init          # This will initialize your folder and turn it into a git repository.
+    ```bash
 
+    $ git init          # This will initialize your folder and turn it into a git repository.
+
+    ```
     When git is initialized, a `.git` hidden folder is created.
 
-        $ ls -a               # You will find a hidden .git folder has been created. This means that Git is now tracking your folder.
+    ```bash
+
+    $ ls -a               # You will find a hidden .git folder has been created. This means that Git is now tracking your folder.
+
+    ```
 
 3. **Check the state of the files in your folder**
 
-        $ git status        # Show the state of files inside your git repo.
+    ```bash
 
+    $ git status        # Show the state of files inside your git repo.
+
+    ```
     A file can have different states: untracked, modified, staged, or committed.
 
     Untracked: Git sees the file but does not track its content. For Git to start tracking the file, you must add it to git first.
@@ -147,15 +171,17 @@ You will create a new folder, turn it into a git repository, create files inside
 
     Committed files do not show when you use git Status. To see a list of all the commits you've made in a specific repository. Navigate to it and use the `$ git log` command.
 
-        `$ git log`
-
-    You will receive an error that this branch which is called `master`, has no commits yet.
+    You will receive an error that this branch, which is called `master`, has no commits yet.
 
 4. **Create Some Text Files**
 
     Create some empty text files inside your folder.
 
-        $ touch index.md about.md blog.md
+    ```bash
+
+    $ touch index.md about.md blog.md
+
+    ```
 
     `.md` means this is a Markdown file. Markdown is a file that includes text, and so git can track its content.
 
@@ -163,11 +189,19 @@ You will create a new folder, turn it into a git repository, create files inside
 
     Check the status again. And note the difference.
 
-        $ git status     # You have three untracked files, nothing stagged (prepared to be committed), and nothing committed.
+    ```bash
+
+    $ git status     # You have three untracked files, nothing stagged (prepared to be committed), and nothing committed.
+
+    ```
 
 5. **Add files to git**
 
-        $ git add *
+    ```bash
+
+    $ git add *
+
+    ```
 
     Writing `*` after the `$ git add` command will add all modified and untracked files to git. You can specify which files to add by writing their names after `$ git add`,  like this: `$ git add index.html about.html`.
 
@@ -177,7 +211,11 @@ You will create a new folder, turn it into a git repository, create files inside
 
 6. **Make your very first commit!**
 
-        $ git commit -m "initial commit"        # commit all stagged files with the commit message "initial commit"
+    ```bash
+
+    $ git commit -m "initial commit"        # commit all stagged files with the commit message "initial commit"
+
+    ```
 
 
     Every commit must have a commit message for yourself and others to read in the future to understand what the commit is about. It should be brief.
@@ -188,11 +226,19 @@ You will create a new folder, turn it into a git repository, create files inside
 
     Now check the status and log, again!
 
-        $ git status    # You have no stagged files and no untracked files.
+    ```bash
+         
+    $ git status    # You have no stagged files and no untracked files.
+
+    ```
 
     To check all commits you've made in this repo:
 
-        $ git log   # You have one commit.
+    ```bash
+
+     $ git log   # You have one commit.
+
+     ```
 
     You can see the author of the commit, the date it was committed, and which branch you're at. You also have a commit hash, which is a number next to the commit, that you can use to check out this commit later on.
 
@@ -216,13 +262,21 @@ Only committed changes will be pushed. This means that untracked, modified, and 
 
     Copy the URL of your new GitHub repository. After the command `$ git remote add`, name your remote repo, then paste the URL.
 
-        $ git remote add origin https://github.com/mstflotfy/gitHubTutorial
+    ```bash
+
+    $ git remote add origin https://github.com/mstflotfy/gitHubTutorial
+
+    ```
 
     A local folder can be connected to multiple remote repositories. Using this command, you add this remote repo to the list of repositories this local git folder can push and pull from. `origin` is the default name of the main remote, but you can call it anything you want.
 
 8. **Push your commits to the remote repo on GitHub**
 
-        $ git push -u origin master
+    ```bash
+
+    $ git push -u origin master
+
+    ```
 
     Later on, you'll just use `$ git push` the rest of the command is only the first time, to make this specific remote repository the one you automatically push to.
 
@@ -247,11 +301,19 @@ You'll make changes online on GitHub then pull those changes to your local repo.
 
     Ues `$ git status`, and you'll notice that the local folder is unaware of the changes you made online to your remote repo. As it will say that your branch is up to date with origin/master, which is the main branch in your remote GitHub repo.
 
-        $ git fetch                         # Fetch the changes but do not commit them yet.
+    ```bash
+
+    $ git fetch     # Fetch the changes but do not commit them yet.
+
+    ```
 
     Git fetch does not pull the changes but makes your local folder aware of them so that you can either apply them or ignore them.
 
-        $ git diff master origin/master    # Compare the local branch master to the remote branch origin/master
+    ```bash
+
+    $ git diff master origin/master    # Compare the local branch master to the remote branch origin/master
+
+    ```
 
     The remote repository is called `origin`, it has one branch called master. Our local repo has one branch that is called master. So you are comparing the branch master in your local repo to the branch master in your remote repo.
 
@@ -261,7 +323,11 @@ You'll make changes online on GitHub then pull those changes to your local repo.
 
     Merge the commits you made on GitHub to your local repo.
 
-        $ git merge
+    ```bash
+
+    $ git merge
+
+    ```
 
     The commit you made on GitHub will now also be committed locally.
 
@@ -281,19 +347,35 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
     To create a new branch just type the command `$ git branch` followed by the name you want to give your new branch.
 
-        $ git branch test         # create a new branch and call it `test`.
+    ```bash
 
-        $ git branch              # Display all local branches.
+    $ git branch test         # create a new branch and call it `test`.
+
+    ```
+
+    ```bash
+
+    $ git branch              # Display all local branches.
+
+    ```
 
     The branch you're currently at will be marked with a star.
 
 12. **Switch to the new branch**
 
-        $ git switch test         # You'll switch to the test branch. If you use `git branch`, you'll find `test` in green and marked with a star.
+    ```bash
+
+    $ git switch test         # You'll switch to the test branch. If you use `git branch`, you'll find `test` in green and marked with a star.
+
+    ```
 
 13. **Make a commit in the new branch**
 
-        $ touch test.md
+    ```bash
+
+    $ touch test.md
+
+    ```
 
     Create a new Markdown file and call it `test.md`.
 
@@ -301,8 +383,12 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
     Make sure you're at the `test` branch, then add and commit the `test.md`.
 
-        $ git add test.md
-        $ git commit -m "Create an empty file at test branch"
+    ```bash
+
+    $ git add test.md
+    $ git commit -m "Create an empty file at test branch"
+
+    ```
 
     Now your branch test will have one commit. When you use the `ls` command when you're in the `test` branch you'll be able to see the file `test.md`, if you switch the main branch and use the `ls` command the file will not show anymore.
 
@@ -312,9 +398,12 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
     To bring changes to a branch from other branches switch to the branch you want to bring changes into, and type the name of the branch you want to bring changes from after the command `git merge`
 
+    ```bash
 
-        $ git switch master     # Switch to the master branch.
-        $ git merge test        # Merge branch test into master.
+    $ git switch master     # Switch to the master branch.
+    $ git merge test        # Merge branch test into master.
+
+    ```
 
     If you use the `ls` command in the master branch the test.md file will now show up and if you run the command `git log` you'll find the commit you've made in the test branch now brought to the master branch.
 
@@ -328,11 +417,18 @@ Conflicts happen when you change the same parts of the same file differently in 
 
 1. create a new branch and call it `conflict`
 
-        $ git branch conflict
+    ```bash
+    $ git branch conflict
+
+    ```
 
 2. Switch the `conflict` branch.
 
-        $ git switch conflict
+    ```bash
+
+    $ git switch conflict
+
+    ```
 
 3. Modify the file test.md
 
@@ -340,12 +436,19 @@ Conflicts happen when you change the same parts of the same file differently in 
 
     Either `$ open test.md` and write down a line of text in it, then save and close. Or just use the `echo` command to insert a line of text in it.
 
-        $ echo "Here is some text" >> test.md
+    ```bash
 
+    $ echo "Here is some text" >> test.md
+
+    ```
 4. Add and commit the change in the `conflict` branch
 
-        $ git add *
-        $ git commit -m "Add some text to create a conflict"
+    ```bash
+
+    $ git add *
+    $ git commit -m "Add some text to create a conflict"
+
+    ```
 
     This change is committed to the `conflict` branch but not to `master`. If you switch to the master branch and look at the test.md file you will not find the line of text you just added in the `conflict` branch. To read the content of the test.md inside the terminal, use the `cat` command:  `$ cat test.md`
 
@@ -353,14 +456,22 @@ Conflicts happen when you change the same parts of the same file differently in 
 
 6. Add a different line of text.
 
-        $ echo "Here is some conflicting text" >> text.md
+    ```bash
+
+    $ echo "Here is some conflicting text" >> text.md
+
+    ```
 
     Now test.md exists on both branches master and conflict yet it has conflicting content on each.
 
 
  7. Try to merge the `conflict` branch into the master branch
 
-        $ git merge conflict
+    ```bash
+
+    $ git merge conflict
+
+    ```
 
     Git will tell you to go sort your business first before you come back again!
 
@@ -370,11 +481,15 @@ Conflicts happen when you change the same parts of the same file differently in 
 
     It should look something like this:
 
-        <<<<<<< HEAD
-        Here is some conflicting text
-        =======
-        Here is some text
-        >>>>>>> conflict
+    ```
+
+    <<<<<<< HEAD
+    Here is some conflicting text
+    =======
+    Here is some text
+    >>>>>>> conflict
+
+    ```
 
     The `=======` part separates your conflicting parts. The upper part marked as `HEAD` is the branch you try to merge into--the master branch. And the part below comes from the `conflict` branch.
 
@@ -386,9 +501,12 @@ Conflicts happen when you change the same parts of the same file differently in 
 
     Now, you need to add and commit your resolved conflict in the master branch.
 
-        $ git add test.md
-        $ git commit -m "resolved merge conflict"
+    ```bash
 
+    $ git add test.md
+    $ git commit -m "resolved merge conflict"
+
+    ```
 
 
 
@@ -403,7 +521,11 @@ When you make a commit, you make a version of the current folder that you can ch
 
 1. **List previous commits**
 
-        $ git log       # shows a list of all commits.
+    ```bash
+
+    $ git log       # shows a list of all commits.
+
+    ```
 
 2. **Copy the commit hash**
 
@@ -413,7 +535,11 @@ When you make a commit, you make a version of the current folder that you can ch
 
     Paste the number after the `$ git checkout` command using `cmd + v`
 
-        $ git checkout pasteTheNubmerHere
+    ```bash
+
+    $ git checkout pasteTheNubmerHere
+
+    ```
 
     You can make changes as you like by adding or removing text.
 
@@ -425,8 +551,9 @@ When you make a commit, you make a version of the current folder that you can ch
 
     If you want to keep the changes, you will need to create a new branch to save them in:
 
-        $ git switch -c newBranch    # This will create a new branch, called newBranch, and save the version you're checking out in it.
-
+    ```bash
+    $ git switch -c newBranch    # This will create a new branch, called newBranch, and save the version you're checking out in it.
+    ```
 
 <br>
 
@@ -471,7 +598,11 @@ Cloning a repository is like downloading it. It will create a local git reposito
 
     Using the terminal, navigate to the folder where you want to place the repo that you will clone. Let's say to Documents. `$ cd ~/Documents`
 
-            $ git clone pasteUrlHere
+    ```bash
+
+    $ git clone pasteUrlHere
+
+    ```
 
     A new folder will be created with the name of your GitHub repo, you can `cd` into it. It will be connected to the GitHub repo so you can push and pull directly.
 
