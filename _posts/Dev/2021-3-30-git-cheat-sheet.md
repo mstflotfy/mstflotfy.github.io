@@ -29,7 +29,7 @@ Anything between `< >` is a variable part of the command. It changes according t
 
 ```
 
-$ git --version         # Check if git is installed on your system and check its version.
+    $ git --version         # Check if git is installed on your system and check its version.
 
 ```
 
@@ -37,6 +37,7 @@ $ git --version         # Check if git is installed on your system and check its
 ```
 
 $ open ~/.gitconfig     # Open `.gitconfig`--a hidden file at the home directory--and edit username and email.
+
 
 ```
 
@@ -47,13 +48,13 @@ $ open .git/HEAD        # Rename a branch by switching to it,  open the `HEAD` f
 
 ```
 
-## <a name="local"></a> **Working Locally**
+## <a name="local"></a>**Working Locally**
 
 ```
 
 $ git init              # Turn any local folder into a git repo.
 
-```
+```   
 
 ```
 

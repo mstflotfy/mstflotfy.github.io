@@ -79,7 +79,7 @@ Here is a list of mini-tutorials that you'll find below
 
 1. Install Git.
 
-    ```
+    ```bash
 
     $ git --version     # Check to see if git is already installed on your computer. If you get a version number, it is.
 
@@ -99,7 +99,7 @@ Here is a list of mini-tutorials that you'll find below
 
     Add your user name and email to the `.gitconfig` text-file, then save and exit. The file should look like this:
 
-    ```text
+    ```
 
     [user]
         name = your-user-name
@@ -144,6 +144,7 @@ You will create a new folder, turn it into a git repository, create files inside
     $ git init          # This will initialize your folder and turn it into a git repository.
 
     ```
+
     When git is initialized, a `.git` hidden folder is created.
 
     ```
@@ -159,6 +160,7 @@ You will create a new folder, turn it into a git repository, create files inside
     $ git status        # Show the state of files inside your git repo.
 
     ```
+
     A file can have different states: untracked, modified, staged, or committed.
 
     Untracked: Git sees the file but does not track its content. For Git to start tracking the file, you must add it to git first.
@@ -236,9 +238,9 @@ You will create a new folder, turn it into a git repository, create files inside
 
     ```
 
-     $ git log   # You have one commit.
+    $ git log   # You have one commit.
 
-     ```
+    ```
 
     You can see the author of the commit, the date it was committed, and which branch you're at. You also have a commit hash, which is a number next to the commit, that you can use to check out this commit later on.
 
@@ -254,11 +256,11 @@ You will connect your local folder to a remote folder, which will be an online r
 
 Only committed changes will be pushed. This means that untracked, modified, and stagged files will not be pushed. This means that if you make a change to a file in a local repo and do not commit this change to git it will not be uploaded to your remote repository. Even though you can see the change when you open the file. Unless you commit a change, git will not push it.
 
-6. **Create a new empty GitHub repo**
+1. **Create a new empty GitHub repo**
 
     [Follow the `Create a repository` part in this guide by GitHub.](https://guides.github.com/activities/hello-world/#repository){:target="_blank" rel="noopener noreferrer"}
 
-7. **Connect your local folder to your new GitHub repo**
+2. **Connect your local folder to your new GitHub repo**
 
     Copy the URL of your new GitHub repository. After the command `$ git remote add`, name your remote repo, then paste the URL.
 
@@ -270,7 +272,7 @@ Only committed changes will be pushed. This means that untracked, modified, and 
 
     A local folder can be connected to multiple remote repositories. Using this command, you add this remote repo to the list of repositories this local git folder can push and pull from. `origin` is the default name of the main remote, but you can call it anything you want.
 
-8. **Push your commits to the remote repo on GitHub**
+3. **Push your commits to the remote repo on GitHub**
 
     ```
 
@@ -289,7 +291,7 @@ Only committed changes will be pushed. This means that untracked, modified, and 
 You'll make changes online on GitHub then pull those changes to your local repo.
 
 
-9. **Make a commit in your remote GitHub repo**
+1. **Make a commit in your remote GitHub repo**
 
     Go to your GitHub repo. You'll find all the files you've committed locally and pushed. Click on one of the files and follow the [Make a commit section in this GitHub Guide](https://guides.github.com/activities/hello-world/#commit){:target="_blank" rel="noopener noreferrer"}
 
@@ -297,7 +299,7 @@ You'll make changes online on GitHub then pull those changes to your local repo.
 
 
 
-10. **Fetch Changes**
+2. **Fetch Changes**
 
     Ues `$ git status`, and you'll notice that the local folder is unaware of the changes you made online to your remote repo. As it will say that your branch is up to date with origin/master, which is the main branch in your remote GitHub repo.
 
@@ -319,7 +321,7 @@ You'll make changes online on GitHub then pull those changes to your local repo.
 
     You'll see deleted lines in red with a `-` sign before them and added lines in green with a `+` sign before them.
 
-11. **Merge**
+3. **Merge**
 
     Merge the commits you made on GitHub to your local repo.
 
@@ -342,7 +344,7 @@ You'll make changes online on GitHub then pull those changes to your local repo.
 A branch is like a duplicate that you create of your main branch. You can switch to this duplicate and make changes that will not show up in your main branch unless you merge them in. This allows you to experiment fast and switch quickly between your different branches.
 
 
-11. **Create a new branch**
+1. **Create a new branch**
 
 
     To create a new branch just type the command `$ git branch` followed by the name you want to give your new branch.
@@ -361,7 +363,7 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
     The branch you're currently at will be marked with a star.
 
-12. **Switch to the new branch**
+2. **Switch to the new branch**
 
     ```
 
@@ -369,7 +371,7 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
     ```
 
-13. **Make a commit in the new branch**
+3. **Make a commit in the new branch**
 
     ```
 
@@ -394,7 +396,7 @@ A branch is like a duplicate that you create of your main branch. You can switch
 
     You can use the command `$ diff master test` to see what the differences are between the two branches.
 
-14. **Merge the new branch in your main branch**
+4. **Merge the new branch in your main branch**
 
     To bring changes to a branch from other branches switch to the branch you want to bring changes into, and type the name of the branch you want to bring changes from after the command `git merge`
 
@@ -418,6 +420,7 @@ Conflicts happen when you change the same parts of the same file differently in 
 1. create a new branch and call it `conflict`
 
     ```
+
     $ git branch conflict
 
     ```
@@ -441,6 +444,7 @@ Conflicts happen when you change the same parts of the same file differently in 
     $ echo "Here is some text" >> test.md
 
     ```
+
 4. Add and commit the change in the `conflict` branch
 
     ```
@@ -552,7 +556,9 @@ When you make a commit, you make a version of the current folder that you can ch
     If you want to keep the changes, you will need to create a new branch to save them in:
 
     ```
+
     $ git switch -c newBranch    # This will create a new branch, called newBranch, and save the version you're checking out in it.
+
     ```
 
 <br>
