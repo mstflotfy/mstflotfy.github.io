@@ -61,10 +61,10 @@ You will use the command line to navigate through the files and folders on your 
 
 ```
 
-$ ls
-Applications		Desktop			Downloads		Movies			Pictures		Tresors			progRelated.kdbx
-Creative Cloud Files	Documents		Library			Music			Public			iCloud Drive (Archive)
-$ |
+ $ ls
+ Applications		Desktop			Downloads		Movies			Pictures		Tresors
+ Creative Cloud Files	Documents		Library			Music			Public			iCloud Drive (Archive)
+ $ |
 
 ``` 
 
@@ -78,7 +78,7 @@ An option is preceded by a dash ( `-` ). To show your hidden files in the list, 
 
 ```
 
-$ ls -a
+ $ ls -a
 
 ``` 
 
@@ -94,7 +94,7 @@ Now list all the files and folders in your current working directory using the `
 
 ```
 
-$ cd Destination
+ $ cd Destination
 
 ``` 
 
@@ -104,7 +104,7 @@ To navigate to a folder inside your working directory,  just type its name. You 
 
 ```
 
-$ cd Documents
+ $ cd Documents
 
 ``` 
 
@@ -112,7 +112,7 @@ If you want to change the directory/folder to home again, you can write `..` aft
 
 ```
 
-$ cd ..
+ $ cd ..
 
 ``` 
 
@@ -124,7 +124,7 @@ Instead of doing that, you can simply use this command to change to the home dir
 
 ```
 
-$ cd ~
+ $ cd ~
 
 ``` 
 
@@ -167,7 +167,7 @@ You can also right-click on any folder and choose `New Terminal at Folder`, or t
 
 ```
 
-$ pwd
+ $ pwd
 
 ``` 
 
@@ -177,9 +177,9 @@ A new line will appear under your command with its output. It should look someth
 
 ```
 
-$ pwd
-/Users/yourUserName/
-$ |
+ $ pwd
+ /Users/yourUserName/
+ $ |
 
 ``` 
 
@@ -209,7 +209,7 @@ Now that you are familiar with different commands to use as examples. Let's brea
 
 ```
 
-$ cd ~/Documents
+ $ cd ~/Documents
 
 ``` 
 `cd` is the command, but it needs an argument (input). It needs a destination to change the working directory to,  `~/Documents` is the argument that the command requires.
@@ -225,7 +225,7 @@ You are still at the `~` directory. List the elements inside of `Documents` agai
 
 ```
 
-ls -a Documents
+ ls -a Documents
 
 ``` 
 
@@ -242,7 +242,7 @@ Now that you can navigate. Let's learn how to do quick edits to text files.
 #### **$ cat**
 ```
 
-$ cat newFile.txt
+ $ cat newFile.txt
 
 ``` 
 
@@ -252,7 +252,7 @@ This command will display the content of a text file inside the terminal. A quic
 #### **$ touch**
 ```
 
-$ touch newFile.txt
+ $ touch newFile.txt
 
 ``` 
 
@@ -262,7 +262,7 @@ To create a new empty text file in a different directory, you need to add a dest
 
 ```
 
-$ touch ~/Desktop/newFile.txt
+ $ touch ~/Desktop/newFile.txt
 
 ``` 
 
@@ -273,7 +273,7 @@ Check if the file has been created. Get a list of all files and folders on your 
 
 ```
 
-$ ls ~/desktop
+ $ ls ~/desktop
 
 ``` 
 
@@ -281,7 +281,7 @@ $ ls ~/desktop
 #### **$ open**
 ```
 
-$ open fileName.txt
+ $ open fileName.txt
 
 ``` 
 
@@ -291,7 +291,7 @@ To open the newFile.txt you just created in the `Desktop` folder, use this comma
 
 ```
 
-$ open ~/desktop/fileName.txt
+ $ open ~/desktop/fileName.txt
 
 ``` 
 
@@ -307,7 +307,7 @@ If you want to open a file that is in another directory, you can write a destina
 
 ```
 
-$ open ~/Documents/Books/file.pdf
+ $ open ~/Documents/Books/file.pdf
 
 ``` 
 
@@ -328,7 +328,7 @@ And the Books folder will open in Finder.
 #### **$ nano**
 ```
 
-$ nano fileName
+ $ nano fileName
 
 ``` 
 
@@ -344,7 +344,7 @@ Use nano on the newFile.txt you created on the Desktop. Either navigate first to
 
 ```
 
-$ nano ~/desktop/newFile.txt
+ $ nano ~/desktop/newFile.txt
 
 ``` 
 
@@ -367,7 +367,7 @@ I find it useful to open the terminal and Finder in windows next to each other a
 #### **$ mkdir**
 ```
 
-$ mkdir newFolderName
+ $ mkdir newFolderName
 
 ``` 
 
@@ -379,7 +379,7 @@ Create a folder called newFolder inside `Documents`. Either navigate to Document
 
 ```
 
-$ mkdir ~/Documents/newFolder
+ $ mkdir ~/Documents/newFolder
 
 ``` 
 
@@ -387,14 +387,14 @@ If you want to see if the folder is actually created, you can use `$ ls` if you'
 
 ```
 
-$ ls ~/Documents
+ $ ls ~/Documents
 
 ``` 
 
 #### **$ rm-r**
 ```
 
-$ rm -r folderName
+ $ rm -r folderName
 
 ``` 
 
@@ -405,7 +405,7 @@ Using `mkdir`, create multiple folders within each other.  Then remove all of th
 #### **$ mv**
 ```
 
-$ mv oldName newName
+ $ mv oldName newName
 
 ``` 
 
@@ -447,7 +447,7 @@ or
 #### **$ cp**
 ```
 
-$ cp fileName Destination
+ $ cp fileName Destination
 
 ``` 
 `cp` is to copy. Again you can think abou it this way `$ cp source destination`.
@@ -472,7 +472,7 @@ The cp command, by default, works on files. If you want to copy folders, add the
 #### **$ du**
 ```
 
-$ du -sh *
+ $ du -sh *
 
 ``` 
 
@@ -489,7 +489,7 @@ If you write the command without`*` you will get the total size of the current w
 #### **Wildcards**
 ```
 
-$ cd  Doc*
+ $ cd  Doc*
 
 ``` 
 
@@ -530,7 +530,7 @@ Be careful if you use mv and rm with wildcards. If you do something like this: `
 
 ```
 
-$ alias jkld='bunlde exec jekyll serve -drafts'
+ $ alias jkld='bunlde exec jekyll serve -drafts'
 
 ``` 
 
@@ -604,7 +604,7 @@ You'll need to restart or open a new tab to see changes.
 
 ```
 
-$ cd 'folder Name'
+ $ cd 'folder Name'
 
 ``` 
 
@@ -619,7 +619,7 @@ Here's another example:
 
 ```
 
-$ man du
+ $ man du
 
 ``` 
 
