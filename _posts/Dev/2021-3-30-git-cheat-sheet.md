@@ -27,80 +27,80 @@ Anything between `< >` is a variable part of the command. It changes according t
 ## <a name="install"></a> **Configure**
 
 
-```
+```bash
 
     $ git --version         # Check if git is installed on your system and check its version.
 
 ```
 
 
-```
-
- $ open ~/.gitconfig     # Open `.gitconfig`--a hidden file at the home directory--and edit username and email.
-
-
-```
-
-
 ```bash
 
- $  open .git/HEAD      # Rename a branch by switching to it,  open the `HEAD` file in the `.git` hidden folder, and edit the line `ref/heads/master`. Change the last part of the line, which is the current branch's name.
+        $ open ~/.gitconfig     # Open `.gitconfig`--a hidden file at the home directory--and edit username and email.
+
 
 ```
+
+
+{% highlight bash %}
+
+$ open .git/HEAD      # Rename a branch by switching to it,  open the `HEAD` file in the `.git` hidden folder, and edit the line `ref/heads/master`. Change the last part of the line, which is the current branch's name.
+
+{% endhighlight %}
 
 ## <a name="local"></a>**Working Locally**
 
-```
+{% highlight bash %}
 
-$ git init              # Turn any local folder into a git repo.
+ $ git init              # Turn any local folder into a git repo.
 
-```   
-
-```
-
-$ git status            # Check untracked, modified, or added files.
+{% endhighlight %}
 
 ```
 
-```
-
-$ git log               # list of all commits.
+ $ git status            # Check untracked, modified, or added files.
 
 ```
 
 ```
 
-$ git add <file>        # Stage a file to make it ready to be commited.
+ $ git log               # list of all commits.
 
 ```
 
 ```
 
-$ git add <file1> <file2>       # Stage multiple files to commit them together.
+ $ git add <file>        # Stage a file to make it ready to be commited.
 
 ```
 
 ```
 
-$ git add .             # `.` or `*` to stage all modified and untracked files.
+ $ git add <file1> <file2>       # Stage multiple files to commit them together.
 
 ```
 
 ```
 
-$ git commit -m "commit message" <file>             # Commit a specific file from the staged files. And add a commit message.
+ $ git add .             # `.` or `*` to stage all modified and untracked files.
 
 ```
 
 ```
 
-$ git commit -m "commit message" <file1> <file2>    # Commit mutliple files.
+ $ git commit -m "commit message" <file>             # Commit a specific file from the staged files. And add a commit message.
 
 ```
 
 ```
 
-$ git commit -m "write a commit message"              # Commit all stagged files at once and add a commit message.
+ $ git commit -m "commit message" <file1> <file2>    # Commit mutliple files.
+
+```
+
+```
+
+ $ git commit -m "write a commit message"              # Commit all stagged files at once and add a commit message.
 
 ```
 
@@ -109,67 +109,67 @@ $ git commit -m "write a commit message"              # Commit all stagged files
 
 ```
 
-$ git clone <url>       # Clone a repository to a local folder from a url. Example: `$ git clone https://github.com/mstflotfy/mstflotfy.github.io`
+ $ git clone <url>       # Clone a repository to a local folder from a url. Example: `$ git clone https://github.com/mstflotfy/mstflotfy.github.io`
 
 ```
 
 ```
 
-$ git remote            # Get a list of all the names of remote repos you've specified.
+ $ git remote            # Get a list of all the names of remote repos you've specified.
 
 ```
 
 ```
 
-$ git remote --v         # Get a list of all remotes with their URLs.
+ $ git remote --v         # Get a list of all remotes with their URLs.
 
 ```
 
 ```
 
-$ git remote add <origin> <url>     # Add a new remote repository.
+ $ git remote add <origin> <url>     # Add a new remote repository.
 
 ```
 
 ```
 
-$ git push <origin> <branch>        # Push new commits from local branch to a remote repo. Example: `$ git push origin master`.
+ $ git push <origin> <branch>        # Push new commits from local branch to a remote repo. Example: `$ git push origin master`.
 
 ```
 
 ```
 
-$ git push -u <origin> <branch>     # Push commits and set a specific remote as the default remote to push and pull from.
+ $ git push -u <origin> <branch>     # Push commits and set a specific remote as the default remote to push and pull from.
 
 ```
 
 ```
 
-$ git push      # Push to the default remote.
+ $ git push      # Push to the default remote.
 
 ```
 
 ```
 
-$ git fetch     # Fetch changes from the default remote without committing them. Can use `$ git diff` afterward to look at changes.
+ $ git fetch     # Fetch changes from the default remote without committing them. Can use `$ git diff` afterward to look at changes.
 
 ```
 
 ```
 
-$ git pull      # Pull commits from default remote to the local branch and commit them.
+ $ git pull      # Pull commits from default remote to the local branch and commit them.
 
 ```
 
 ```
 
-$ git remote show <origin>     # Show more info about a specific remote.
+ $ git remote show <origin>     # Show more info about a specific remote.
 
 ```
 
 ```
 
-$ git remote remove <origin>    # Remove a remote by deleting the reference to it.
+ $ git remote remove <origin>    # Remove a remote by deleting the reference to it.
 
 ```
 
@@ -177,49 +177,49 @@ $ git remote remove <origin>    # Remove a remote by deleting the reference to i
 
 ```
 
-$ git branch            # Show all local branches.
+ $ git branch            # Show all local branches.
 
 ```
 
 ```
 
-$ git branch --all       # Show branches, including remotes.
+ $ git branch --all       # Show branches, including remotes.
 
 ```
 
 ```
 
-$ git branch <new-branch-name>  # Create a new branch. Example: `$ git branch testBranch`
+ $ git branch <new-branch-name>  # Create a new branch. Example: `$ git branch testBranch`
 
 ```
 
 ```
 
-$ git switch <branch-name>      # Switch to a specific branch. Example: `$ git switch main`
+ $ git switch <branch-name>      # Switch to a specific branch. Example: `$ git switch main`
 
 ```
 
 ```
 
-$ git diff <branch1> <branch2>       # Show the difference between two branches. Example: `$ git diff master origin`
+ $ git diff <branch1> <branch2>       # Show the difference between two branches. Example: `$ git diff master origin`
 
 ```
 
 ```
 
-$ git merge <branch>        # Merge branches. Merge changes from named branch into the current branch.
+ $ git merge <branch>        # Merge branches. Merge changes from named branch into the current branch.
 
 ```
 
 ```
 
-$ git branch -d <branch>       # Delete a branch.
+ $ git branch -d <branch>       # Delete a branch.
 
 ```
 
 ```
 
-$ git checkout <commitHash>        # Cheackout an old commit in a headless branch. Then git will walk you through what to do.
+ $ git checkout <commitHash>        # Cheackout an old commit in a headless branch. Then git will walk you through what to do.
 
 ```
 
@@ -243,13 +243,13 @@ $ git checkout <commitHash>        # Cheackout an old commit in a headless branc
 
 ```
 
-$ git --help <verb>     # Docs for a specific command. Example: `$ git --help add`
+ $ git --help <verb>     # Docs for a specific command. Example: `$ git --help add`
 
 ```
 
 ```
 
-$ git <verb> -h         # Get a short list of some options for a command.
+ $ git <verb> -h         # Get a short list of some options for a command.
 
 ```
 
