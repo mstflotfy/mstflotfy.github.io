@@ -44,7 +44,7 @@ Anything between `< >` is a variable part of the command. It changes according t
 
 ```bash
 
- $ open .git/HEAD        # Rename a branch by switching to it,  open the `HEAD` file in the `.git` hidden folder, and edit the line `ref/heads/master`. Change the last part of the line, which is the current branch's name.
+ $  open .git/HEAD      # Rename a branch by switching to it,  open the `HEAD` file in the `.git` hidden folder, and edit the line `ref/heads/master`. Change the last part of the line, which is the current branch's name.
 
 ```
 
