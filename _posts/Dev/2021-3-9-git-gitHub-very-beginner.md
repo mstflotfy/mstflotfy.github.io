@@ -79,7 +79,7 @@ Here is a list of mini-tutorials that you'll find below
 
 1. Install Git.
 
-    ```bash
+    ```
 
     $ git --version     # Check to see if git is already installed on your computer. If you get a version number, it is.
 
@@ -468,12 +468,12 @@ Conflicts happen when you change the same parts of the same file differently in 
 
     Now test.md exists on both branches master and conflict yet it has conflicting content on each.
 
+ 7. Try to merge the `conflict` branch into the master branch.
 
- 7. Try to merge the `conflict` branch into the master branch
 
     ```
 
-    $ git merge conflict
+     $ git merge conflict
 
     ```
 
