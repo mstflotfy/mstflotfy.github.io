@@ -29,85 +29,85 @@ Anything between `< >` is a variable part of the command. It changes according t
 
 ```bash
 
-    $ git --version         # Check if git is installed on your system and check its version.
+ $ git --version         # Check if git is installed on your system and check its version.
 
 ```
 
 
 ```bash
 
-        $ open ~/.gitconfig     # Open `.gitconfig`--a hidden file at the home directory--and edit username and email.
+ $ open ~/.gitconfig     # Open `.gitconfig`--a hidden file at the home directory--and edit username and email.
 
 
 ```
 
 
-{% highlight bash %}
+```bash
 
-$ open .git/HEAD      # Rename a branch by switching to it,  open the `HEAD` file in the `.git` hidden folder, and edit the line `ref/heads/master`. Change the last part of the line, which is the current branch's name.
+ $ open .git/HEAD       # Rename a branch by switching to it,  open the `HEAD` file in the `.git` hidden folder, and edit the line `ref/heads/master`. Change the last part of the line, which is the current branch's name.
 
-{% endhighlight %}
+```
 
 ## <a name="local"></a>**Working Locally**
 
-{% highlight bash %}
+```bash
 
  $ git init              # Turn any local folder into a git repo.
 
-{% endhighlight %}
-
 ```
+
+```bash
 
  $ git status            # Check untracked, modified, or added files.
 
 ```
 
-```
+```bash
 
  $ git log               # list of all commits.
 
 ```
 
-```
+```bash
 
  $ git add <file>        # Stage a file to make it ready to be commited.
 
 ```
 
-```
+```bash
 
  $ git add <file1> <file2>       # Stage multiple files to commit them together.
 
 ```
 
-```
+```bash
 
  $ git add .             # `.` or `*` to stage all modified and untracked files.
 
 ```
 
-```
+```bash
 
  $ git commit -m "commit message" <file>             # Commit a specific file from the staged files. And add a commit message.
 
 ```
 
-```
+```bash
 
  $ git commit -m "commit message" <file1> <file2>    # Commit mutliple files.
 
 ```
 
-```
+```bash
 
- $ git commit -m "write a commit message"              # Commit all stagged files at once and add a commit message.
+ $ git commit -m "write a commit message"            # Commit all stagged files at once and add a commit message.
 
 ```
 
 
 ## <a name="remote"></a> **Working with Remotes**
 
-```
+```bash
 
  $ git clone <url>       # Clone a repository to a local folder from a url. Example: `$ git clone https://github.com/mstflotfy/mstflotfy.github.io`
 
@@ -121,7 +121,7 @@ $ open .git/HEAD      # Rename a branch by switching to it,  open the `HEAD` fil
 
 ```
 
- $ git remote --v         # Get a list of all remotes with their URLs.
+ $ git remote --v        # Get a list of all remotes with their URLs.
 
 ```
 
@@ -163,7 +163,7 @@ $ open .git/HEAD      # Rename a branch by switching to it,  open the `HEAD` fil
 
 ```
 
- $ git remote show <origin>     # Show more info about a specific remote.
+ $ git remote show <origin>      # Show more info about a specific remote.
 
 ```
 
@@ -183,7 +183,7 @@ $ open .git/HEAD      # Rename a branch by switching to it,  open the `HEAD` fil
 
 ```
 
- $ git branch --all       # Show branches, including remotes.
+ $ git branch --all      # Show branches, including remotes.
 
 ```
 
@@ -213,13 +213,13 @@ $ open .git/HEAD      # Rename a branch by switching to it,  open the `HEAD` fil
 
 ```
 
- $ git branch -d <branch>       # Delete a branch.
+ $ git branch -d <branch>    # Delete a branch.
 
 ```
 
 ```
 
- $ git checkout <commitHash>        # Cheackout an old commit in a headless branch. Then git will walk you through what to do.
+ $ git checkout <commitHash>         # Cheackout an old commit in a headless branch. Then git will walk you through what to do.
 
 ```
 
