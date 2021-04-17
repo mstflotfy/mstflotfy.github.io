@@ -38,7 +38,6 @@ Anything between `< >` is a variable part of the command. It changes according t
 
  $ open ~/.gitconfig     # Open `.gitconfig`--a hidden file at the home directory--and edit username and email.
 
-
 ```
 
 
