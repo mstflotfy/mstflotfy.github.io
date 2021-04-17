@@ -5,16 +5,14 @@ title: Mostafa Lotfy
 
 I write to better understand the things I struggle with.
 
-I am no expert. I am overwhelmed by those things, so I seek to simplify. Not to dumb down, but to find some entry point from which I can dig deeper. 
-
-I write only about things I am interested in and currently engaged with.
+I am no expert. I am overwhelmed by those things, so I seek to simplify. Not to dumb down, but to find some entry point from which I can dig deeper. I write only about things I am interested in and currently engaged with.
 
 <br>
 
 <small>**What am I currently engaged with?**</small>
 
 <h2 style="margin-top: 10px;">
-    <marK>
+    <mark style="background-color: #f7f6f3ff; padding: 0.35em;">
         <strong>Web Development</strong>
     </mark>
 </h2>
