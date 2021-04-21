@@ -12,7 +12,7 @@ I am no expert. I am overwhelmed by those things, so I seek to simplify. Not to 
 <small>**What am I currently engaged with?**</small>
 
 <h2 style="margin-top: 10px;">
-    <mark style="background-color: #f7f6f3ff; padding: 0.35em;">
+    <mark style="background-color:#ffaaaa; padding:0.15em;">
         <strong>Web Development</strong>
     </mark>
 </h2>
