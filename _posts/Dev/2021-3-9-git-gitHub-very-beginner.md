@@ -7,6 +7,8 @@ author: Mostafa Lotfy
 section: Dev
 ---
 
+![Git & GitHub Doodle](/assets/i/gitDoodle.png){:oncontextmenu="return false;"}
+
 
 Git and GitHub are necessary skills to create your Jekyll website and add content to it. This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank" rel="noopener noreferrer"} Here is the full list of skills you need to get familiar with before starting the step by step guide:
 
