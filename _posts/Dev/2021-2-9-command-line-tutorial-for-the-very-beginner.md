@@ -6,6 +6,9 @@ author: Mostafa Lotfy
 section: Dev
 ---
 
+![The Terminal Logo](/assets/i/terminalLogo.svg){:style="width:70%;height:auto;"}
+<br><br>
+
 This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank" rel="noopener noreferrer"}
 
 The commands in this tutorial work on Mac and Linux. If you are using Windows, you will have to look up [how to install bash on Windows.](https://duckduckgo.com/?q=how+to+install+bash+on+windows&t=h_&ia=web){:target="_blank" rel="noopener noreferrer"}

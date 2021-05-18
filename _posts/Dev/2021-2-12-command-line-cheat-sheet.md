@@ -6,6 +6,9 @@ author: Mostafa Lotfy
 section: Dev
 ---
 
+![The Terminal Logo](/assets/i/terminalLogo.svg){:style="width:70%;height:auto;"}
+<br><br>
+
 This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank" rel="noopener noreferrer"}
 
 

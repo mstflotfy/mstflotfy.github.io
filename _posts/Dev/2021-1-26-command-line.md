@@ -1,10 +1,13 @@
 ---
-title: The Command Line for the very beginner
+title: Command Line Intro
 layout: post
 permalink: /dev/command-line-very-beginner/
 author: Mostafa Lotfy
 section: Dev
 ---
+
+![The Terminal Logo](/assets/i/terminalLogo.svg){:style="width:70%;height:auto;"}
+<br><br>
 
 This article is a part of [A Step By Step Guide To Starting A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank" rel="noopener noreferrer"}
 
