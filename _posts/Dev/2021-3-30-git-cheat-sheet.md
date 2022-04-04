@@ -150,6 +150,12 @@ Anything between `< >` is a variable part of the command. It changes according t
 
 ```
 
+ $ git push -f <origin> <branch>   # Force push commits. Changes made to the remote will not be saved. Will create issues if other pushing repos are active.  
+
+```
+
+```
+
  $ git fetch     # Fetch changes from the default remote without committing them. Can use `$ git diff` afterward to look at changes.
 
 ```
