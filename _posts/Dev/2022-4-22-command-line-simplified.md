@@ -274,7 +274,7 @@ If you have a `screenshots` directory at your Desktop, you can open it inside GU
 
 `open ~/Downloads/images/image1.png` The open command can also be used to open files.
 
-## 5 Organize {#org}
+## 5. Organize {#org}
 
 Now that you know where you are, you can list files and directories, and you can navigate between directories, let's see how we can organize our directories and files.
 
@@ -386,7 +386,7 @@ You can also target files that have a specific word in the middle -` ls *image*`
 
 Be careful using this! If you make a mistake you can mess up a lot of files.
 
-## Edit {#edit}
+## 6. Edit {#edit}
 
 Almost done! It's time to edit files using the command line, text files especially, as those are the ones you'll deal with the most as you develop your own Apps.
 
@@ -475,7 +475,7 @@ Vim needs its own intro so, for now, just use `open`, or `nano` and in the futur
 
 To exit Vim, press **ESC**, then write `:q!`, then press **return**, and you'll safely return to the terminal.
 
-## Customize {#cust}
+## 7. Customize {#cust}
 
 Hang in there we're almost done!
 
@@ -518,11 +518,11 @@ If you want a minimal and clean prompt to add this `ps1='$ '` , in an empty line
 
 You need to `source ~/.bashrc` for this to take effect or start a new terminal tab.
 
-## What's next? Command Line Resources {#next}
+## 8. What's next? Command Line Resources {#next}
 
 Some resources that can help you learn more about using the command line.
 
-### 1. Command Line Cheatsheets
+### Command Line Cheatsheets
 
 There is no need to memorize any command.
 
@@ -534,7 +534,7 @@ There is also a [cheatsheet by Codecademy](https://www.codecademy.com/learn/lear
 
 Or, just look up other Command-line cheatsheets online, and find one you like.
 
-### 2. Books To Self Study The Command Line
+### Books To Self Study The Command Line
 
 #### The Linux commands handbook by Flavio.
 
@@ -552,12 +552,12 @@ This is a short book of commands and quick explanations, that the author thinks 
 
 A very recommended book that dives deep into the command line and that is suited for beginners.
 
-### 4. Online Class
+### Online Class
 
 #### The Missing Semester of Your CS Education, a class by MIT.
 
 This class is a part of the [Open source society Uni](https://github.com/ossu/computer-science){:target="_blank" rel="noreferrer"}'s path to a free self taught education in computer science. 
 
-### 5. Tune in
+### Tune in
 
 I will continue to explore the command line on my website: [mstflotfy.com](https://mstflotfy.com/){:target="_blank" rel="noreferrer"}, and YT channel: [mstflotfy - indieDev](https://www.youtube.com/c/mstflotfyindieDev){:target="_blank" rel="noreferrer"} . I'll explore commands that used to confuse me, shell scripts, and vim. I will also explore other Dev subjects, as well as Ui and Ux Design. 
