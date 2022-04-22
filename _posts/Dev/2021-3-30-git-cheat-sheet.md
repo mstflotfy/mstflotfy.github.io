@@ -103,6 +103,11 @@ Anything between `< >` is a variable part of the command. It changes according t
 
 ```
 
+```
+
+$ git commit --amend -m "new commit message"		# Use this to overwrite your very last commit with a new one when you make a mistake. Not jsut a mistake with the message you can add new files you forgot to add. Don't use this on published commits, unless you work on a private repo.
+
+```
 
 ## <a name="remote"></a> **Working with Remotes**
 
