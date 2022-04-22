@@ -7,7 +7,7 @@ permalink: /dev/command-line-simplified/
 description: I am on a learning journey to build my own apps. I started it by exploring Figma, now I think I need to move on to coding, and I think that learning the command line is a great starting point. This is my cmd line study notes. I tried to simplify getting started with the cmd line.
 ---
 
-![v12Th.png](/assets/i/v12Th.png)
+![I tried to simplify getting started with the command line](/assets/i/v12/v12-iD-th5.png)
 
 <br>
 <br>
