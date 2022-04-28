@@ -16,16 +16,16 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter:
+    #twitter:
+    youtube: mstflotfy - indieDev
     instagram: mstflotfy
-    pinterest: mstflotfy
+    #pinterest: mstflotfy
     #github:  mstflotfy
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # linkedin: jekyll
-    # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
     # telegram: jekyll
