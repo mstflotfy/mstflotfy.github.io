@@ -55,6 +55,7 @@ include:
 header_pages:
   - _pages/self.md
   - _pages/dev.md
+  - _pages/design.md
   - _pages/about.md
 
 
