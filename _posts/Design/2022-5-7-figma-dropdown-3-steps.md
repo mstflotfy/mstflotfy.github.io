@@ -76,7 +76,7 @@ Now let's get to it, and start making the dropdown menu.
 
 To follow along I made [a Figma community file](){:target="blank" rel="noreferrer"}. Open the link while you're signed in to your Figma account, press on duplicate at the top right side of the page, and you'll have a copy of it in your drafts folder.
 
-[Embed Vid]
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wRnz_AZXJaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this article/video we'll make a Figma Dropdown menu in three steps:
 1. Make A Hover state variant for the dropdown button component.
