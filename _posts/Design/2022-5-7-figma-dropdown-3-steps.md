@@ -38,7 +38,7 @@ One thing to note, where I ended with the last vids, I had a component for almos
 
 But for this file, I removed most of the components, to minimize the confusion, and only left the ones we'll need to work on, in the dropdown menu.
 
-Inside the [file](){:target="blank" rel="noreferrer"}:
+Inside the [file](https://www.figma.com/community/file/1104788393847411628){:target="blank" rel="noreferrer"}:
 
 We have a screenshot, just as a reference. 
 
@@ -74,7 +74,7 @@ Finally, we have a component for the profile image. An instance of it is inside 
 
 Now let's get to it, and start making the dropdown menu.
 
-To follow along I made [a Figma community file](){:target="blank" rel="noreferrer"}. Open the link while you're signed in to your Figma account, press on duplicate at the top right side of the page, and you'll have a copy of it in your drafts folder.
+To follow along I made [a Figma community file](https://www.figma.com/community/file/1104788393847411628){:target="blank" rel="noreferrer"}. Open the link while you're signed in to your Figma account, press on duplicate at the top right side of the page, and you'll have a copy of it in your drafts folder.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wRnz_AZXJaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
