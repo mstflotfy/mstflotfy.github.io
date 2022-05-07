@@ -25,7 +25,7 @@ You can come back to the outline by pressing the back button of your browser.
 
 ![Starting point in the Figma community file](/assets/i/v13/startingPoint.png)
 
-I've already been working on a **Pinterest Clone in Figma**. I started from scratch and created a design for the home page. I even made the [homage design fully responsive with breaking points](https://www.youtube.com/watch?v=3KUZ3o0ddcE&list=PLsOexrcoU3Q4b-dI6chgagDntDD-AgetO&index=5&t=379s){:target="blank" rel="noreferrer"}. 
+I've already been working on a **Pinterest Clone in Figma**. I started from scratch and created a design for the home page. I even made the [homepage design fully responsive with breaking points](https://www.youtube.com/watch?v=3KUZ3o0ddcE&list=PLsOexrcoU3Q4b-dI6chgagDntDD-AgetO&index=5&t=379s){:target="blank" rel="noreferrer"}. 
 
 But, the design is not interactive. Pinterest has a lot of interactivity going on, even for a single page, but creating an interactive dropdown menu is not a bad place to start.
 
