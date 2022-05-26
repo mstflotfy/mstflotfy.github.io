@@ -24,11 +24,15 @@ description: A Quick look at Figma's new updates. And how to use the new feature
 ## Intro {#intro} 
 ![what's new in Figma at Figma config 2022](/assets/i/v14/what's_new_in_figma.png)
 
-Figma just had a new update a couple of days ago. In this article, I'll go through most of the new features using brief practical examples. 
+Figma just had a new update a couple of days ago (actually about 2 weeks ago). In this article, I'll go through most of the new features using brief practical examples. 
 
 The update includes many little changes, but the main 2 upgrades came to auto-layout and components. And since auto-layout and components are the main features of Figma, it's important to understand these updates and how to use them to improve your workflow.
 
 There is no better way to explain something than to use an example. So let's have a look at the updates by creating a button.
+
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AZg1oGWn6SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Here's [a link to the fFigma community file](https://www.figma.com/community/file/1111642615512042772){:target="blank" rel="noreferrer"} used in this article.
 
 ## Dark Mode {#dark-mode}
 
@@ -38,7 +42,7 @@ We'll start by opening a new design file.
 
 ![Create a new design file in Figma](/assets/i/v14/new_file.png)
 
-And the first new feature is Dark-mode. The easiest way to toggle between dark and light modes is to press "Cmd /" to get the quick access menu (I think that's what it's called), then write "dark", and press enter. The Ui changes to Dark-mode but the Canvas's color we have to change ourselves. This makes sense, if Figma changes it for you, the color it chooses might conflict with your design. To change the color of the Canvas (The background color), click anywhere on it, then at the Design panel, adjust the "Background" color. 
+And the first new feature is Dark-mode. The easiest way to toggle between dark and light modes is to press "Cmd /" to open up "Quick actions", then write "dark", and press enter. The Ui changes to Dark-mode but the Canvas's color we have to change ourselves. This makes sense, if Figma changes it for you, the color it chooses might conflict with your design. To change the color of the Canvas (The background color), click anywhere on it, then at the Design panel, adjust the "Background" color. 
 
 ![Use the quick access menu to toggle dark mode](/assets/i/v14/quick_dark.png)
 
@@ -60,7 +64,7 @@ I also didn't know what variable fonts were when I first read this.
 
 I didn't dive deep into it but here's what I understood by reading briefly on it; Basically variable fonts give you more flexibility while customizing your type, instead of just preset custom sizes and styles (like "Bold", or "italic"), variable fonts give you more control. At the same time, all this functionality is packed in one file (unlike normal fonts, where each style has a new file), this leads to faster load times.
 
-If you want to read more on variable fonts, check out this [Introduction to variable fonts on the web](https://web.dev/variable-fonts/){:target="blank" rel="noreferrer"}article. 
+If you want to read more on variable fonts, check out this [Introduction to variable fonts on the web](https://web.dev/variable-fonts/){:target="blank" rel="noreferrer"} article. 
 
 Just note that not all fonts are variable fonts, and not all variable fonts give you the same amount of options. "Roboto flex" gives many options so you can play with it and customize it.
 
@@ -290,6 +294,6 @@ You can also add a file to your Favorites while you're inside the file.
 
 ---
 
-This is it. These are the updates I found most impactful and for a full official list check [this page](https://www.figma.com/whats-new/){:target="blank" rel="noreferrer"}. You can also check the Figma community file with the examples in this article. 
+This is it. These are the updates I found most impactful and for a full official list check [this page](https://www.figma.com/whats-new/){:target="blank" rel="noreferrer"}. You can also check the free Figma community file with the examples in this article. 
 
 You might want to check out this article: [How to make a dropdown menu in Figma](/design/figma-dropdown-3steps/).
