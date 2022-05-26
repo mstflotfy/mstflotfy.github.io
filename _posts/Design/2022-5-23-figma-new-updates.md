@@ -32,7 +32,7 @@ There is no better way to explain something than to use an example. So let's hav
 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AZg1oGWn6SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Here's [a link to the fFigma community file](https://www.figma.com/community/file/1111642615512042772){:target="blank" rel="noreferrer"} used in this article.
+Here's [a link to the Figma community file](https://www.figma.com/community/file/1111642615512042772){:target="blank" rel="noreferrer"} used in this article.
 
 ## Dark Mode {#dark-mode}
 
