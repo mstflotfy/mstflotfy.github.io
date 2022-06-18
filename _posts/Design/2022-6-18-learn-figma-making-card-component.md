@@ -17,14 +17,14 @@ I broke this down into 12 mini-steps:
 2. [Inspect Pinterest's code to get precise measurements for the design elements.](#inspect)
 3. [Install the Unsplash plugin and add add an image.](#unsplash)
 4. [Set the image properties](#image-properties)
-5. [Add an image auto-layout frame (a container for the images)](#images-container)
-5. [Add 2 text boxes and set their properties](#text)
-6. [Turn it into a component](#component)
-7. [Add text component properties](#text-prop)
-8. [Add an icon (boolean) component property](#bool-prop)
-9. [Take instances of the component](#instances)
-10. [Add a hover variant](#hover-variant)
-11. [Present and test design](#present)
+5. [Add an auto-layout frame (a container for the images)](#images-container)
+6. [Add 2 text boxes and set their properties](#text)
+7. [Turn it into a component](#component)
+8. [Add text component properties](#text-prop)
+9. [Add an icon (boolean) component property](#bool-prop)
+10. [Take instances of the component](#instances)
+11. [Add a hover variant](#hover-variant)
+12. [Present and test the design](#present)
 
 <small>
 	You can also watch it on [YouTube](https://www.youtube.com/c/mstflotfyindieDev){:target="_blank rel="noreferrer"}. A video for this article will be published soon.
@@ -135,13 +135,13 @@ To quickly open the Unsplash plugin (or any other plugin), get the quick access 
 
 Select any image and it will be dropped into your canvas.
 
-## Set image properties {#image-properties}
+## 4 Set Image Properties {#image-properties}
 
 ![Image zoomed-in, given rounded corners, width, and height](/assets/i/v15/image-width-height-radius.png)
 
 Select the image and give it the dimensions we grabbed from the inspector earlier; a width of <kbd>116px</kbd> and a height of <kbd>155px</kbd>. And give it a <kbd>16px</kbd> corner radius.
 
-## Auto Layout Frame (Images Container) {#images-container}
+## 5 Auto Layout Frame (Images Container) {#images-container}
 
 According to our in-page reference (the screenshot), we want to have 4 images stacked on top of each other.
 
@@ -199,7 +199,7 @@ Inspecting the code again, I found a property of the image that we missed. It ha
 
 To select all 4 images at the same time, select the **"images"** frame and press <kbd>Enter</kbd>. At the design panel, go to strokes and press on the **+** icon next to it to add a stroke around each image. Give it a white color. The default size is one pixel already.
 
-## Add Text To Your Component {#text}
+## 6 Add Text To Your Component {#text}
 
 We grabbed the font size from the inspector earlier, but not the font weight so I went back in and got it. 
 
@@ -244,7 +244,7 @@ Then to wrap everything in a frame I select the **images frame** and the **text 
 
 Also, adjust the **distance between items** inside the **card frame** till the height of it is <kbd>215px</kbd>.
 
-## Create a component {#component}
+## 7 Create a component {#component}
 
 We'll turn the card into a component, this will allow us to take many instances of it. And if we update our component all the instances will be updated. 
 
@@ -258,7 +258,7 @@ To turn the **card frame** into a **component** select it and press the **create
 
 Notice how the **icon of the frame** changed to the **component icon** in the **layers panel** and also to a **purple color** to make it distinct from normal elements.
 
-## Text Component Properties {#text-prop}
+## 8 Text Component Properties {#text-prop}
 
 Next, we'll add **component properties**. We'll start by adding **text component properties**. 
 
@@ -278,7 +278,7 @@ You'll be prompted to give your new **component property** a **Name** and a **de
 
 And the **same** goes for the **secondary text (1,851 Pins)**. 
 
-## Add A Boolean Property To Show/Hide An Icon {#bool-prop}
+## 9 Add A Boolean Property To Show/Hide An Icon {#bool-prop}
 
 Normally I just quickly grab icons from one of the icons plugins in Figma, but I couldn't find this one. So instead of searching for it online, or recreating it in Figma, I just went to the icon in Pinterest and grabbed its SVG code.
 
@@ -358,12 +358,10 @@ I set it to False (hidden) by default, but it doesn't matter much.
 
 ![frame tool selected and cursor hovering above Macbookpro 14" in the design panel.](/assets/i/v15/add-a-macbook-frame.png)
 
-
+## 10 Take Instances Of The Component {#instances}
 Let's try out our component properties.
 
-First, add a frame to present our component inside. 
-
-This frame is what we will present the design inside, it will act like the web page. 
+We'll start by adding a frame. This frame will be the container for our design. It represents the webpage where the design is viewed.
 
 To present a design it must be inside a frame. I selected a Macbook pro 14'' as the size of the frame but you can select any other device or make a custom size, it doesn't matter much in our case.
 
@@ -383,6 +381,7 @@ Just toggle the icon on, and change the values of "Text" and "Text2" to match ou
 
 ![component is selected and the cursor is hovering above the create component icon.](/assets/i/v15/add-variant.png)
 
+## 11 Add A Hover Variant {#hover-variant}
 To add a hover state to our button, we need to create a new variant. 
 
 Component properties don't work in prototypes, and we want the hover property to work in the prototype so we must use a variant in this case.
@@ -441,6 +440,7 @@ The effect is above the icon, in our design, the icon shouldn't be affected by h
 
 To fix this get back to the "hover=True" variant and in the "layer panel" grab the icon's frame and put it above the hover effect's frame.
 
+## 12 Present It {#present}
 Finally, select the "MacBook frame" and present it by pressing the play button at the top left side of the page, above the design panel.
 
 ![2 instances presented pointer above one of them shows hover effect](/assets/i/v15/figma-frame-presented.png)
