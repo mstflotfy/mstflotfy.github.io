@@ -42,7 +42,7 @@ So, I started by heading to the Pinterest website and grabbing screenshots of th
 
 <small>If you're using a Mac you can take a screenshot by pressing <kbd>cmd shift 4</kbd>, then select the area you want in your screenshot. A neat trick I recently learned is pressing and holding the <kbd>ctrl</kbd> key while making the selection and the image will be copied to your clipboard. Then you can head to Figma and just press <kbd>cmd v</kbd> and you're done! </small>
 
-![2 screenshots of multiple cards with text below them, inside a Figma file. ](/assets/i/v15/pinterest-component-screenshots.png)
+![2 screenshots of multiple cards with text below them, inside a Figma file.](/assets/i/v15/pinterest-component-screenshots.png)
 
 Open a **new Figma draft** design file, and **paste** the screenshots. 
 
@@ -169,7 +169,7 @@ The auto-layout frame has padding by default, so remove it, by setting All paddi
 
 To add the other 3 images select the image inside the auto layout frame, and press <kbd>cmd c</kbd> then press <kbd>cmd v</kbd> 3 times. Our auto-layout frame is set in the horizontal direction so the images will be next to each other, just what we want.
 
-![Upnsplash plugin open and image changed](/assets/i/v15/change-images-from-unsplash.png)
+![Unsplash plugin open and image changed](/assets/i/v15/change-images-from-unsplash.png)
 
 Bring up the Unsplash plugin again, and change the images. Select the image you want to replace in the design, and once you click on an image in the Unsplash plugin it will replace it.
 
@@ -252,7 +252,7 @@ By turning the card into a component we can also make a hover variant for it and
 
 ![card is selected and hovering above Create component button](/assets/i/v15/turn-auto-layout-frame-to-component.png)
 
-To turn the **card frame** into a **component** select it and press the **create component** button at the top of the page.
+To turn the "card frame" into a component, select it and press the **create component** button at the top of the page.
 
 ![mouse hovering above the component icon in the layers panel, while the new component is selected.](/assets/i/v15/show-frame-as-component.png)
 
@@ -316,7 +316,7 @@ Change the frame's width and height to <kbd>32px</kbd> (The size we got for the 
 
 Give the icon's frame a fill and rounded corners.
 
-To add a fill press on the **+** icon next to **Fill** inside the **Design panel**, and set the color to white.
+To add a fill press on the **+** icon, next to **Fill**, inside the **Design panel**, and set the color to **white**.
 
 In the **design panel**, **Frame**, give the frame a <kbd>100px</kdbd> rounded corners, to turn it into a circle.
 
@@ -356,14 +356,18 @@ And, you'll be prompted to  give your new property a name and value.
 
 I set it to False (hidden) by default, but it doesn't matter much.
 
-![frame tool selected and cursor hovering above Macbookpro 14" in the design panel.](/assets/i/v15/add-a-macbook-frame.png)
 
 ## 10 Take Instances Of The Component {#instances}
+
 Let's try out our component properties.
 
 We'll start by adding a frame. This frame will be the container for our design. It represents the webpage where the design is viewed.
 
 To present a design it must be inside a frame. I selected a Macbook pro 14'' as the size of the frame but you can select any other device or make a custom size, it doesn't matter much in our case.
+
+![frame tool selected and cursor hovering above MacBook 14" in the design panel.](/assets/i/v15/add-a-macbook-frame.png)
+
+Click on the **frame tool** (top-left), then select one of the custom size frames from the "**design panel**". 
 
 ![2 instances of the component in a mac frame](/assets/i/v15/put-instances-in-frame.png)
 
@@ -379,12 +383,13 @@ Now you can edit the component easily.
 
 Just toggle the icon on, and change the values of "Text" and "Text2" to match our design.
 
-![component is selected and the cursor is hovering above the create component icon.](/assets/i/v15/add-variant.png)
-
 ## 11 Add A Hover Variant {#hover-variant}
+
 To add a hover state to our button, we need to create a new variant. 
 
 Component properties don't work in prototypes, and we want the hover property to work in the prototype so we must use a variant in this case.
+
+![component is selected and the cursor is hovering above the create component icon.](/assets/i/v15/add-variant.png)
 
 Select the card component and press on the **Add variant** icon at the top of the page.
 
