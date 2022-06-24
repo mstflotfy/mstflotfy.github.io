@@ -27,12 +27,14 @@ I broke this down into 12 mini-steps:
 12. [Present and test the design](#present)
 
 <small>
-	You can also watch it on [YouTube](https://www.youtube.com/c/mstflotfyindieDev){:target="_blank rel="noreferrer"}. A video for this article will be published soon.
+	You can also watch it on [YouTube](https://www.youtube.com/c/mstflotfyindieDev){:target="_blank rel="noreferrer"}. 
 </small>
 
 <small>
 	[Here's the final Figma file](https://www.figma.com/community/file/1119848425895842486){:target="_blank" rel="noreferrer"}.
 </small>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pHuh--cYx9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1 Take Screenshots For Reference {#screenshot}
 
