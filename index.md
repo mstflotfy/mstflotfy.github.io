@@ -1,20 +1,14 @@
 ---
 layout: home
-title: Mostafa Lotfy
+title: HEY, I'M MOSTAFA LOTFY
 ---
 
-I write to better understand the things I struggle with.
+On this site I explore Dev, Design, and Productivity.
 
-I am no expert. I am overwhelmed by those things, so I seek to simplify. Not to dumb down, but to find some entry point from which I can dig deeper. I write only about things I am interested in and currently engaged with.
+![Mostafa Lotfy](assets/i/img-main.png){:width="60%"}
 
-<br>
 
-<small>**What am I currently engaged with?**</small>
+I document and share some of the practical lessons I come across while I build my own indie Apps. (mostly apps related to productivity and managing oneself).
 
-<h2 style="margin-top: 10px;">
-    <mark style="background-color:#ffaaaa; padding:0.15em;">
-        <strong>Web Development</strong>
-    </mark>
-</h2>
+If you are interested in practical tips related to Dev, Design, or Productivity, tune in--bookmark this website, and subscribe to my [YouTube channel: mstflotfy - indieDev](https://www.youtube.com/c/mstflotfyindieDev){:target="_blank" rel="noreferrer"}.
 
-I document the lessons I encounter while learning to code and while I build this website. I try to break down and simplify those lessons as best as I could on the [ Dev page.](/dev)
