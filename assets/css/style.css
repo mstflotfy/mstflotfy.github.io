@@ -1,0 +1,593 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+sitemap: false
+---
+
+/* Root */
+  :root {
+    --clr-brand: #577777;
+    --clr-gray: #A9A3A3;
+    --clr-background: #212121;
+    --clr-foreground: #FFFFFF;
+    --clr-link: #99B6FF;
+    --clr-yt: #E84040;
+    --clr-instagram: #582661; 
+
+    --effect: linear-gradient(112.57deg, rgba(0, 0, 0, 0) 0%, #87588b 110.23%);
+    
+    --border-radius: 10px;
+
+    --main-font-family: Poppins, sans-serif;
+
+    --h1-font-weight: 900;
+    --h1-font-size: 3.25rem;
+    --h1-line-height: 100%;
+    --h1-color: var(--clr-brand);
+
+    --h2-font-weight: 800;
+    --h2-font-size: 2rem;
+    --h2-line-height: 2.4rem; 
+    --h2-color: var(--clr-foreground);
+
+    --p-font-weight: 400;
+    --p-font-size: 1.125rem;
+    --p-line-height: 1.8rem;
+    --p-color: var(--clr-foreground);
+
+    --p-small-weight: 400;
+    --p-small-size: 0.75rem;
+    --p-small-line-height: 0.5rem;
+    --p-small-color: var(--clr-gray);
+
+    --txt-cta-large-font-weight: 900;
+    --txt-cta-large-font-size: 2.3rem;
+    --txt-cta-large-line-height: 2.3rem;
+    --txt-cta-color: var(--clr-yt);
+  }
+
+/* Resets */
+
+  *, *:before, *:after 
+  { box-sizing: border-box; }
+
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+/* General */
+  h1 {
+    font-family: var(--main-font-family);
+    font-weight: var(--h1-font-weight);
+    font-size: var(--h1-font-size);
+    line-height: var(--h1-line-height);
+    color: var(--h1-color);
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-family: var(--main-font-family);
+    font-weight: var(--h2-font-weight);
+    font-size: var(--h2-font-size);
+    line-height: var(--h2-line-height);
+    color: var(--h2-color);
+    text-transform: capitalize;
+  }
+
+  p {
+    font-family: var(--main-font-family);
+    font-weight: var(--p-font-weight);
+    font-size: var(--p-font-size);
+    line-height: var(--p-line-height);
+    color: var(--clr-foreground);
+  }
+
+  .link, a {
+    color: var(--clr-link);
+    text-decoration: underline;
+  }
+  .link:hover, .link:active, .link:focus, a:hover, a:active, a:focus{
+    color: var(--clr-link);
+    text-decoration: none;
+  }
+
+  .effect {
+    background: var(--effect);
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 2;
+  }
+
+  main {
+    overflow-y: scroll;
+  }
+
+/* Main */
+  body {
+    background-color: var(--clr-background);
+    color: var(--clr-foreground);
+
+   display: flex; 
+
+    margin: 0;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    font-family: var(--main-font-family);
+
+    gap: 0.625rem;
+
+  }
+
+  .body--landing {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+
+  .main-content {
+    align-self: stretch;
+    flex-grow: 1;
+  }
+
+  .content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    gap: 2.5rem;
+    align-self: stretch;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    
+  }
+
+  .content--landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5rem 0rem 2.5rem 2.5rem;
+    gap: 2.5rem;
+    align-self: stretch;
+    position: relative;
+
+  }
+
+
+  .main-image-small {
+  /* This image is hidden and will show only for widths below 1000px, using the media queries below */
+    display: none;
+  }
+  .title--article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    border-bottom: 0.0625rem solid var(--clr-foreground);
+    padding-bottom: 0.625rem;
+  }
+
+/* Header */
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    align-self: stretch;
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .header__burger-btn {
+    /* Keep the burger button hidden by default */
+    /* It will be shown for small widths using the media queries below */
+    display: none;
+    fill: var(--clr-gray);
+  }
+  .header__burger-btn:hover, .header__burger-btn:active, .header__burger-btn:focus {
+    fill: var(--clr-foreground);
+  }
+
+  #show-mobile-nav:target {
+    /* Show the hidden by default mobile nav when the burger is pressed */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.875rem;
+    align-self: stretch;
+    padding-top: 2.125rem;
+  }
+
+  .header__nav-mobile {
+    display: none;
+    position: absolute;
+    background-color: var(--clr-background);
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+
+  .header__icon-back:hover * {
+    fill: var(--clr-foreground);
+  }
+
+  .home-btn {
+    /* class=home-btn */
+
+    /* Auto layout */
+
+    display: flex;
+    padding: 1.25rem 1.5625rem;
+
+    /* clr-brand */
+
+    background: var(--clr-brand);
+    border-radius: var(--border-radius);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* home-btn__txt */
+
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.875rem;
+    line-height: 100%;
+
+    /* Remove link style */
+    text-decoration: none;
+    color: var(--clr-foreground);
+  }
+
+  .home-btn:hover, .home-btn:active, .home-btn:focus {
+    background-color: var(--clr-foreground);
+    color: var(--clr-brand);
+  }
+
+  .header__pages {
+    display: flex;
+    gap: 0.625rem;
+  }
+
+  .page-link {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9375rem;
+
+    color: var(--clr-gray);
+
+    display: flex;
+    padding: 0.625rem;
+
+    text-decoration: none;
+  }
+
+  .page-link:hover {
+    color: var(--clr-foreground);
+  }
+
+  .header__pages-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+/* article-list */
+  .article-link {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid var(--clr-foreground) 0.0625rem;
+    padding-bottom: 0.9375rem;
+    text-decoration: none;
+  }
+  .article-link__title {
+    color: var(--clr-gray);
+
+  }
+  .article-link__info {
+    color: var(--clr-brand);
+  }
+  .article-link:hover *, .article-link:active *, .article-link:focus * {
+    color: var(--clr-foreground);
+  }
+  .title--article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  
+  .title__image {
+    width: 40%;
+    border-radius: var(--border-radius);
+  }
+/* blocks */
+  .call-out {
+    display: block;
+    padding: 1.25rem 1.875rem;
+    overflow-x: scroll;
+    background: var(--clr-foreground);
+    border-radius: var(--border-radius);
+    color: var(--clr-background);
+  }
+  .code-block {
+    display: flex;
+    padding: 1.25rem 1.87rem;
+    background: var(--clr-gray);
+    border-radius: var(--border-radius);
+    color: var(--clr-foreground);
+    overflow-x: scroll;
+  }
+  .call-out *, .code-block * {
+    display: block;
+    overflow-x: scroll;
+  }
+/* article */
+  article {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    flex-grow: 1;
+    gap: 1.25rem;
+    margin: 0px;
+    align-self: stretch;
+    overflow-y: scroll;
+  }
+
+  article * {
+    margin: 0px;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+/* article elements */
+  img {
+    max-width: 50%;
+    vertical-align: middle;
+  }
+
+.iframe {
+  max-width: 60%;
+}
+/* cta */
+  .cta-wrapper {
+    text-decoration: none;
+  }
+  .cta {
+    display: flex; 
+    align-items: center;
+    gap: 0.9375rem;
+  }
+
+  .cta__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 1.875rem;
+    gap: 0.625rem;
+
+    background: var(--clr-yt);
+    border-radius: var(--border-radius);
+  }
+
+  .txt-cta-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    min-width: 8.125rem;
+  /* clr-black */
+    color: #212121;
+  }
+
+  .cta__txt {
+    font-family: var(--main-font-family);
+    font-weight: var(--txt-cta-large-font-weight);
+    font-size: var(--txt-cta-large-font-size);
+    line-height: var(--txt-cta-large-line-height);
+    color: var(--txt-cta-color);
+  }
+
+  /* Target all the descendants of the cta class */
+
+  .cta:hover *, .cta:active *, .cta:focus * {
+    color: var(--clr-foreground);
+    fill: var(--clr-foreground);
+  }
+
+/* footer */
+  footer {
+    /* layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    align-self: stretch;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+  }
+
+    .footer__text {
+      /* body-small */
+      color: var(--p-small-color); 
+
+      font-weight: var(--p-small-weight);
+      font-size: var(--p-small-size);
+      line-height: var(--p-small-line-height) 
+    }
+
+    .footer__icons {
+      display: flex;
+      padding: 0px;
+      gap: 0.625rem;
+    }
+
+  /* Target the third path in the instagram icon svg which holds the strokes and give it a color of gray by default, and a white on hover. Then give the whole svg including the the layers holding the fill of the whole svg a purple instagram color on hover.*/
+
+    .icon-instagram :nth-child(3){
+      fill: var(--clr-gray);
+    }
+    .icon-instagram:hover, .icon-instagram:active, .icon-instagram:focus {
+      fill: var(--clr-instagram);
+    }
+    .icon-instagram:hover :nth-child(3), .icon-instagram:active :nth-child(3){
+      fill: var(--clr-foreground);
+    }
+
+    .icon-yt :nth-child(3){
+      fill: var(--clr-gray);
+    }
+    .icon-yt:hover, .icon-yt:active, .icon-yt:focus{
+      fill: var(--clr-yt);
+    }
+    .icon-yt:hover :nth-child(3), .icon-yt:active :nth-child(3){
+      fill: var(--clr-foreground);
+    }
+
+
+/* image */
+    .main-image *{
+      max-width: 90%;
+      height: auto;
+    }
+/* Media Queries */
+
+  @media screen and (max-width: 1000px) {
+    .main-image {
+      /* Hide the main image as it gets awkward next to the content */
+      display: none;
+    }
+    .main-image-small {
+      /* Unhide a smaller image that is the same div as the content */
+      display: flex;
+      justify-content: center;
+    }
+    body, .body--landing {
+      /* Instead of display: grid when the main-image shares the scren with the content */
+      display: flex;
+    }
+    .content--landing {
+      /* Content has 0px right padding when image is removed it hits the screen */
+      padding-right: 2.5rem;
+    }
+
+  }
+
+  @media screen and (max-width: 575px) {
+    .cta {
+      /* Make the cta text and button on top of each other, as the width gets narrow */
+      flex-direction: column;
+    }
+    .cta__txt {
+      text-align: center;
+    }
+    .content {
+      /* Make the header and footer sticky and only the article will scroll, for small sizes */
+      position: fixed;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+      bottom: 0px; 
+    }
+    .main-image-small * {
+      width: 100%;
+    }
+    .header__pages {
+      display: none;
+    }
+    .header__burger-btn {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+  /* Since title image (article cover image) 
+  is too small for small screens at 50%, I switch 
+  its width to 100% instead for screens smaller than 450px */
+    img, .title__image {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .home-btn {
+      padding: 1.25rem 0.9375rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    .footer {
+      flex-direction: column;
+    }
+    .footer__icons {
+      order: -1;
+    }
+  }
+
+  /* Large Screens */
+  @media screen and (min-width: 1500px){
+    :root {
+      font-size: 26px;
+    }
+
+  }
+
+
+  @media screen and (min-width: 2500px){
+    :root {
+      font-size: 52px;
+      --border-radius: 30px;
+    }
+    .icon-yt {
+      width: 3.1875rem;
+      height: 2.625rem;
+    }
+    .icon-instagram {
+      width: 2.625rem;
+      height: 2.625rem;
+    }
+  }
+
+  /* Tiny screens */
+  @media screen and (max-width:374px) {
+    :root {
+      font-size: 12px;
+    }
+  }
