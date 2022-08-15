@@ -55,6 +55,14 @@ sitemap: false
     color: inherit;
   }
 
+  pre {
+    display: flex;
+    padding: 1.25rem 1.87rem;
+    background: var(--clr-gray);
+    border-radius: var(--border-radius);
+    color: var(--clr-foreground);
+    overflow-x: scroll;
+  }
 /* General */
   h1 {
     font-family: var(--main-font-family);
@@ -327,7 +335,7 @@ sitemap: false
   }
   
   .title__image {
-    width: 40%;
+    max-width: 40%;
     border-radius: var(--border-radius);
   }
 /* blocks */
@@ -378,9 +386,10 @@ sitemap: false
     vertical-align: middle;
   }
 
-.iframe {
-  max-width: 60%;
-}
+  .iframe {
+    max-width: 60%;
+  }
+
 /* cta */
   .cta-wrapper {
     text-decoration: none;
@@ -542,7 +551,7 @@ sitemap: false
   is too small for small screens at 50%, I switch 
   its width to 100% instead for screens smaller than 450px */
     img, .title__image {
-      width: 100%;
+      max-width: 100%;
     }
   }
 
