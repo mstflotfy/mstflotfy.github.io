@@ -4,17 +4,13 @@ layout: post
 permalink: /dev/command-line-cheat-sheet/
 author: Mostafa Lotfy
 section: Dev
+image: /assets/i/terminalLogo.svg
 ---
 
-![The Terminal Logo](/assets/i/terminalLogo.svg){:style="width:70%;height:auto;"}
-<br><br>
 
-This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank" rel="noopener noreferrer"}
+## Navigate
 
-
-## **Navigate**
-
-#### **$ ls**
+#### $ ls
 
 ```
 
@@ -28,7 +24,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 
 ```
 
-#### **$ cd**
+#### $ cd
 
 ```
 
@@ -60,7 +56,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 
 ```
 
-#### **$ pwd**
+#### $ pwd
 
 ```
 
@@ -68,7 +64,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 
 ```
 
-#### **$ clear**
+#### $ clear
 
 ```
 
@@ -76,9 +72,9 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 
 ```
 
-## **Command Structure**
+## Command Structure
 
-#### **$ command -options arguments**
+#### $ command -options arguments
 
 ```
 
@@ -88,16 +84,16 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 
 
 
-## **Edit**
+## Edit
 
-#### **$ cat**
+#### $ cat
 ```
 
  $ cat file.txt   # Read a text file inside the terminal.
 
 ```
 
-#### **$ open**
+#### $ open
 ```
 
  $ open file.txt   # Open a file or folder inside the current directory. You can edit the file, save it, then get back to the terminal. Also, opens Folders in `Finder` and any type of file. When opening a file, the extension must be added after the name.
@@ -117,7 +113,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 ```
 
 
-#### **$ touch**
+#### $ touch
 ```
 
  $ touch newFile.txt   # Create a new empty text file inside the current directory.
@@ -131,7 +127,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 ```
 
 
-#### **$ nano**
+#### $ nano
 ```
 
  $ nano fileName   # Create, read, or edit a text file inside the terminal. `ctrl+x` to exit, `Y` to save changes, then confirm the name of the file.
@@ -144,7 +140,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 
 ```
 
-#### **$ echo**
+#### $ echo
 ```
 
  $ echo "line to add" >> <fileName>   # Add a line of text to a file on the fly (without opening the file)
@@ -158,9 +154,9 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 ```
 
 
-## **Organize**
+## Organize
 
-#### **$ mkdir**
+#### $ mkdir
 ```
 
  $ mkdir newFolder # Create a new folder in the current working directory. Stands for make directory.
@@ -174,7 +170,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 ```
 
 
-#### **$ rm-r**
+#### $ rm-r
 ```
 
  $ rm -r folderName    # Delete files or folders without asking for confirmation!
@@ -182,7 +178,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 ```
 
 
-#### **$ mv**
+#### $ mv
 ```
 
  $ mv Source Destination   # Move a file or folder from source to destination.
@@ -224,7 +220,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 ```
 
 
-#### **$ cp**
+#### $ cp
 ```
 
  $ cp Source Destination # Copy a file or folder, from a source to a destination.
@@ -257,7 +253,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 
 ```
 
-#### **$ du**
+#### $ du
 
 ```
 
@@ -284,9 +280,9 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 ```
 
 
-## **Be More Efficient**
+## Be More Efficient
 
-#### **Wildcards**
+#### Wildcards
 ```
 
  $ cd  ~/Doc*    # Use wildcards to be lazy and avoid writing long names. This command will change the current directory to the `Documents` folder. Could also just press tab for autocompletion.
@@ -301,7 +297,7 @@ This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev
 
 
 
-#### **Aliases**
+#### Aliases
 
 ```
 
@@ -319,7 +315,7 @@ To make an alias permenant add it to one of those text files:<br>
 `~/.bash_profile` <br>
 `~/.zshrc` <br>
 
-#### **Tabs**
+#### Tabs
 
 `cmd + T` To open a new tab.
 
@@ -327,7 +323,7 @@ To make an alias permenant add it to one of those text files:<br>
 
 
 
-#### **A minimal look**
+#### A minimal look
 
 ```
 
@@ -336,7 +332,7 @@ To make an alias permenant add it to one of those text files:<br>
 ```
 
 
-#### **Dealing with spaces**
+#### Dealing with spaces
 
 ```
 
@@ -345,7 +341,7 @@ To make an alias permenant add it to one of those text files:<br>
 ```
 
 
-#### **$ man**
+#### $ man
 
 ```
 
@@ -354,7 +350,7 @@ To make an alias permenant add it to one of those text files:<br>
 ```
 
 
-#### **alt + click**
+#### alt + click
 
 `alt + click`  To specify where to write instead of using the keyboard arrows.
 
@@ -365,6 +361,5 @@ Remember not to try to memorize commands it will happen automatically. You can r
 
 ---
 
-<br>
 
 [Back: A command line tutorial for the very beginner](/dev/command-line-beginner-tutorial/)<br> | Next: [Git & GitHub tutorial for the very beginner](/dev/git-github-tutorial-very-beginner/)

@@ -5,6 +5,7 @@ author: Mostafa Lotfy
 section: Design
 permalink: /design/figma-new-update-2022/
 description: A Quick look at Figma's new updates. And how to use the new features, using brief practical examples. 
+image: /assets/i/v14/what's_new_in_figma.png
 ---
 
 ## Outline
@@ -31,7 +32,7 @@ The update includes many little changes, but the main 2 upgrades came to auto-la
 There is no better way to explain something than to use an example. So let's have a look at the updates by creating a button.
 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AZg1oGWn6SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AZg1oGWn6SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 Here's [a link to the Figma community file](https://www.figma.com/community/file/1111642615512042772){:target="blank" rel="noreferrer"} used in this article.
 
 ## Dark Mode {#dark-mode}

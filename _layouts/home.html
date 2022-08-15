@@ -1,14 +1,27 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="landing-copy">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+    <h1>{{ page.title | escape }}</h1>
 
-  <div class="post-content">
+    <p>
+      On this site I explore Dev, Design, and Productivity.
+    </p>
+
+    {%- include cta.html -%}
+
+    <p>
+      I document and share some of the practical lessons I come across while I build my own indie Apps. (mostly apps related to productivity and managing oneself).
+    </p>
+
+    <p>
+      If you are interested in practical tips related to Dev, Design, or Productivity, tune in--bookmark this website, and subscribe to my <a class="link" href="https://www.youtube.com/c/mstflotfyindieDev" target="_blank" rel="noreferrer">YouTube channel: mstflotfy - indieDev.</a>    
+    </p>
+
+    <div class="main-image-small">
+      <img src="/assets/img-landing-small.png" width="100%">
+    </div>
+
     {{ content }}
-  </div>
-
 </article>

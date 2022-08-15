@@ -5,12 +5,8 @@ author: Mostafa Lotfy
 section: Dev
 permalink: /dev/command-line-simplified/
 description: I am on a learning journey to build my own apps. I started it by exploring Figma, now I think I need to move on to coding, and I think that learning the command line is a great starting point. This is my cmd line study notes. I tried to simplify getting started with the cmd line.
+image: /assets/i/v12/v12-iD-th5.png
 ---
-
-![I tried to simplify getting started with the command line](/assets/i/v12/v12-iD-th5.png)
-
-<br>
-<br>
 
 While the command line seems like a scary and daunting place, getting started with it is not as hard as it first seems. In the following video, I try to simplify getting started with the command line. This article contains notes from the video. I tried to be brief with the article, not sure it worked, but I think that this is a thorough (for an intro that is) introduction to the command line, that can take you from knowing nothing about the command line, to confidently using it daily. And hopefully, build up your knowledge from there.
 

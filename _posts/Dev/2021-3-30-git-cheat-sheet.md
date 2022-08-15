@@ -5,12 +5,10 @@ section: Dev
 permalink: /dev/git-cheat-sheet/
 author: Mostafa Lotfy
 section: Dev
+image: /assets/i/gitCheatSheet.jpg
 ---
 
-![A git doodle I made for this article.](/assets/i/gitCheatSheet.jpg "Git Doodle"){:oncontextmenu="return false;"}
-
-
-**On This Page**
+## On This Page
 
 - [Install And Configure](#install)
 - [Working with Local Folders](#local)
@@ -20,11 +18,11 @@ section: Dev
 - [Documentation and Help](#docs)
 - [Other Git Cheat Cheets](#other)
 
----
+<p class="call-out">
+  Anything between `< >` is a variable part of the command. It changes according to the naming of your files and branches.
+</p>
 
-Anything between `< >` is a variable part of the command. It changes according to the naming of your files and branches.
-
-## <a name="install"></a> **Configure**
+## <a name="install"></a>Configure
 
 
 ```

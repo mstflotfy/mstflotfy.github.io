@@ -5,9 +5,8 @@ author: Mostafa Lotfy
 section: Design
 permalink: /design/figma-negative-stack-card-component-in-5steps/
 description: How to use Figma's interactive components to easily make a dropdown menu.
+image: /assets/i/v15/figma-negative-stacked-card-component-indieDev-mstflotfy.png
 ---
-
-![2 Figma components made up of negatively stacked cards presented inside a MacBook](/assets/i/v15/figma-negative-stacked-card-component-indieDev-mstflotfy.png)
 
 In this article, I want to show you how I used **auto layout** and **components** to recreate the pin stack you see above (from the Pinterest design) in Figma.
 

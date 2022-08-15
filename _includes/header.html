@@ -1,31 +1,49 @@
-<header class="site-header">
+<header class="header">
+  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign page_paths = site.header_pages | default: default_paths -%}
+  {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <a class="home-btn" href="{{ "/" | relative_url }}">
+   {{ site.title }} 
+  </a>
 
-    {%- if titles_size > 0 -%}
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+  <a href="#show-mobile-nav"">
+    <svg class="header__burger-btn" width="58" height="38" viewBox="0 0 58 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3.98523 0.5C2.05223 0.5 0.485229 2.067 0.485229 4C0.485229 5.933 2.05223 7.5 3.98523 7.5V0.5ZM53.9852 7.5C55.9182 7.5 57.4852 5.933 57.4852 4C57.4852 2.067 55.9182 0.5 53.9852 0.5V7.5ZM3.98523 7.5H53.9852V0.5H3.98523V7.5Z"/>
+      <path d="M3.98523 15.5C2.05223 15.5 0.485229 17.067 0.485229 19C0.485229 20.933 2.05223 22.5 3.98523 22.5V15.5ZM41.9852 22.5C43.9182 22.5 45.4852 20.933 45.4852 19C45.4852 17.067 43.9182 15.5 41.9852 15.5V22.5ZM3.98523 22.5H41.9852V15.5H3.98523V22.5Z"/>
+      <path d="M3.98523 30.5C2.05223 30.5 0.485229 32.067 0.485229 34C0.485229 35.933 2.05223 37.5 3.98523 37.5V30.5ZM53.9852 37.5C55.9182 37.5 57.4852 35.933 57.4852 34C57.4852 32.067 55.9182 30.5 53.9852 30.5V37.5ZM3.98523 37.5H53.9852V30.5H3.98523V37.5Z"/>
+      </svg>
+  </a>
+  
+  <div id="show-mobile-nav" class="header__nav-mobile" >
+    <a href="#">
+      <svg class="header__icon-back" width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M26.882 30.7708C28.2488 32.1376 30.4649 32.1376 31.8317 30.7708C33.1986 29.404 33.1986 27.1879 31.8317 25.821L21.4495 15.4388L30.9134 5.97487C32.2802 4.60804 32.2802 2.39196 30.9134 1.02513C29.5465 -0.341708 27.3305 -0.341708 25.9636 1.02513L16.4997 10.489L7.03582 1.02513C5.66899 -0.341709 3.45291 -0.341709 2.08607 1.02513C0.719238 2.39196 0.719238 4.60804 2.08607 5.97487L11.55 15.4388L1.1677 25.821C-0.199131 27.1879 -0.199131 29.404 1.1677 30.7708C2.53454 32.1376 4.75062 32.1376 6.11745 30.7708L16.4997 20.3885L26.882 30.7708Z" fill="#A9A3A3"/>
+        </svg>
+    </a>
 
-        <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-        </div>
-      </nav>
-    {%- endif -%}
-  </div>
+    <a class="home-btn" href="/index.html">
+      mstflotfy
+    </a>
+
+    <nav class="header__pages-mobile">
+      {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+    </div>
+    
+
+  <nav class="header__pages">
+      {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+  </nav>
+
 </header>

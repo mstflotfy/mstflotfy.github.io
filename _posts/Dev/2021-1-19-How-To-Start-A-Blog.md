@@ -5,24 +5,15 @@ permalink: /dev/how-to-start-a-blog/
 author: Mostafa Lotfy
 description: Should I start a blog using WordPress? Should I use Wix or Squarespace? Should I first learn web development? How to host a blog? What is a static website? Should I use GitHub Pages free hosting? What is Jekyll? How to buy a domain name? Do I need to first understand SEO before I start a blog?
 section: Dev
+image: /assets/i/blogDoodle.jpg
 ---
-
-![How to start a blog digital ink doodle.](/assets/i/blogDoodle.jpg "How to start a blog doodle"){:oncontextmenu="return false;"}
-
-<br>
-
-<br>
 
 A couple of weeks before I wrote this post, I had no idea how to start a blog or any website.
 
 I had many questions, and after searching online, they only multiplied.
 
-<br>
-
 > Should I use WordPress? Should I use a site builder like Wix or Squarespace? Should I first learn web development? How do I host my blog? Should I first start blogging on Medium? Should I use GitHub Pages free hosting? What is a static website? What is Jekyll? Should I consider other static site generators than Jekyll? Do I need to understand and think about SEO before I start? Where should I get a domain name? Should I go with .com or something else? How do I connect the domain name to my website?
 
-
-<br>
 
 These are some of the questions that overwhelmed me.
 
@@ -30,17 +21,12 @@ I overthought it.
 The best thing to do is choose a path that makes sense, start immediately, and figure things as you go.
 No matter how long you think and analyze, eventually, you will find a better way to do things. Time spent postponing is wasted.
 
-<br>
-
 
 <strong>To start, you only need three things!</strong>
 - Build the blog.
 - Host it on a server.
 - Buy a domain name and connect it to your website.
 
-<br>
-
----
 
 ## **Buying A Domain Name**
 

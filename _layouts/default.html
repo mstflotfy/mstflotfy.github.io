@@ -3,18 +3,40 @@
 
   {%- include head.html -%}
 
-  <body>
+  {%- if page.url == "/" -%}
+    <body class="body--landing">
+  {%- else -%}
+      <body>
+  {%- endif -%}
 
-    {%- include header.html -%}
+    <div class="effect"></div>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  {%- if page.url == "/" -%}
+    <div class="content--landing">
+  {%- else -%}
+    <div class="content">
+  {%- endif -%}
 
-    {%- include footer.html -%}
+      {%- include header.html -%}
 
+      <!-- only add the class main-content if the page is not the landing page.
+      This makes the content stretch to take up space between header and footer.-->
+
+      {%- if page.url != "/" -%}
+        <main class="main-content" aria-label="Content">
+      {%- else -%}
+        <main aria-label="Content">
+      {%- endif -%}
+            {{ content }}
+        </main>
+
+      {%- include footer.html -%}
+
+    </div>
+
+    {%- if page.url == "/" -%}
+      {%- include main-image.html -%}
+    {%- endif -%}
   </body>
 
 </html>

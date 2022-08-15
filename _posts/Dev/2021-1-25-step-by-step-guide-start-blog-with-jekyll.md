@@ -4,6 +4,7 @@ layout: post
 permalink: /dev/step-by-step-guide-start-blog-with-jekyll/
 author: Mostafa Lotfy
 section: Dev
+image: /assets/i/jekyll.png
 ---
 
 This article is a follow up to [How To Start A Blog](/dev/how-to-start-a-blog/){:target="_blank" rel="noopener noreferrer"}, where I go through the reasons I choose [Jekyll](https://jekyllrb.com/){:target="_blank" rel="noopener noreferrer"} and [GitHub Pages](https://pages.github.com/){:target="_blank" rel="noopener noreferrer"} to build my blog and the other options I considered.

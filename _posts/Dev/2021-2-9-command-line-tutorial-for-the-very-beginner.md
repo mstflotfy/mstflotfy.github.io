@@ -4,10 +4,8 @@ layout: post
 permalink: /dev/command-line-beginner-tutorial/
 author: Mostafa Lotfy
 section: Dev
+image: /assets/i/terminalLogo.svg
 ---
-
-![The Terminal Logo](/assets/i/terminalLogo.svg){:style="width:70%;height:auto;"}
-<br><br>
 
 This article is part of [A Step By Step Guide To Start A Blog With Jekyll.](/dev/step-by-step-guide-start-blog-with-jekyll/){:target="_blank" rel="noopener noreferrer"}
 

@@ -1,5 +1,6 @@
 ---
-title: ABOUT
+title: About
+subtitle: Mostafa Lotfy
 layout: page
 permalink: /about/
 ---

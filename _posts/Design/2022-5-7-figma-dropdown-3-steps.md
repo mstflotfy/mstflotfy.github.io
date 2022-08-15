@@ -5,9 +5,8 @@ author: Mostafa Lotfy
 section: Design
 permalink: /design/figma-dropdown-3steps/
 description: How to use Figma's interactive components to easily make a dropdown menu.  
+image: /assets/i/v13/v13-Th.png
 ---
-
-![Figma Dropdown Menu Thumbnail](/assets/i/v13/v13-Th.png)
 
 Whatever the design you're working on, it will (most probably) have a **dropdown menu** somewhere. So, in this article, I'll attempt to simplify making a dropdown menu in Figma. As a part of my [Pinterest Clone in Figma](https://www.youtube.com/playlist?list=PLsOexrcoU3Q4b-dI6chgagDntDD-AgetO){:target="blank" rel="noreferrer"} exercise.
 

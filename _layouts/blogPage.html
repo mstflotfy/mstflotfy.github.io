@@ -1,14 +1,8 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
   {{ content }}
-
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -18,27 +12,24 @@ layout: default
 
 
   {%- if posts.size > 0 -%}
+
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="post-list">
+
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
         {%- if post.section == page.title -%}
-          <li>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
+            <h2>
+              <a class="article-link" href="{{ post.url | relative_url }}">
+                <h2 class="article-link__title">
+                  {{ post.title | escape }}
+                </h2>
+                <p class="article-link__info">{{ post.date | date: date_format }} . {{ post.author }}</p>
               </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
-            {%- endif -%}
-          </li>
+            </h2>
         {%- endif -%}
       {%- endfor -%}
-    </ul>
 
     {% if site.paginate %}
       <div class="pager">
@@ -59,5 +50,3 @@ layout: default
     {%- endif %}
 
   {%- endif -%}
-
-</div>
