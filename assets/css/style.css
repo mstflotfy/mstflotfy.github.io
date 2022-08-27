@@ -7,13 +7,14 @@ sitemap: false
   :root {
     --clr-brand: #577777;
     --clr-gray: #A9A3A3;
-    --clr-background: #212121;
+    --clr-background: black;
     --clr-foreground: #FFFFFF;
     --clr-link: #99B6FF;
     --clr-yt: #E84040;
     --clr-instagram: #582661; 
 
-    --effect: linear-gradient(112.57deg, rgba(0, 0, 0, 0) 0%, #87588b 110.23%);
+    /* Hide the effect temporarily, till I decide what to do with it */
+    /* --effect: linear-gradient(112.57deg, rgba(0, 0, 0, 0) 0%, #87588b 110.23%); */
     
     --border-radius: 10px;
 
@@ -397,7 +398,7 @@ sitemap: false
   }
 
   .readable {
-    max-width: 60%;
+    max-width: 50%;
   }
 /* article elements */
   img {
