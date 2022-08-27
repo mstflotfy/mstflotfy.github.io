@@ -73,7 +73,7 @@ Also, I limited the color palette. And tried to use it consistently across eleme
 
 Finally, I had to think of readability. I used [Adobe Color's Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer){:target="_blank" rel="noreferrer"} to do this. This made me change the color slightly for some fonts and adjust the type scale to make sure smaller font sizes are readable.
 
-![A screenshot of Adobe color's contrast checker](assets/i/dev9/adobe-color-contrast-tool-screenshot.png)
+![A screenshot of Adobe color's contrast checker](/assets/i/dev9/adobe-color-contrast-tool-screenshot.png)
 
 ### Naming Components And Elements
 I wanted to name components and elements in a consistent way across the design and code.
@@ -108,11 +108,11 @@ Using [Visual Studio Code](https://code.visualstudio.com/){:target="_blank" rel
 
 I started by setting some [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties){:target="_blank" rel="noreferrer"}. 
 
-![CSS variables applied to the root element](assets/i/dev9/css-variables-example.png)
+![CSS variables applied to the root element](/assets/i/dev9/css-variables-example.png)
 
 I used the styles that I set in the [Figma file](https://www.figma.com/community/file/1144516865792093918){:target="_blank" rel="noreferrer"}.
 
-![Text and color styles from the Figma design](assets/i/dev9/figma-text-color-styles.png)
+![Text and color styles from the Figma design](/assets/i/dev9/figma-text-color-styles.png)
 
 Then I finished styling all the pages for the desktop design, intentionally ignoring responsiveness. 
 
@@ -124,7 +124,7 @@ Mainly targeting elements using classes, I tried to minimize other selectors but
 
 I also used Figma's "Inspect panel", It's not a copy-and-paste solution, but it helped a lot.
 
-![Figma's code inspector panel showing CSS code for the header design](assets/i/dev9/figma-code-inspector-panel-example.png)
+![Figma's code inspector panel showing CSS code for the header design](/assets/i/dev9/figma-code-inspector-panel-example.png)
 
 Having the fonts set using rem instead of pixels helped make this easier.
 
@@ -138,7 +138,7 @@ To actually deploy the website, I had to find a way to integrate this HTML and C
 
 ## Step 5-- Integrating The HTML & CSS into Jekyll
 
-![Jekyll static website generator web page screenshot](assets/i/dev9/jekyll-landing-page.png)
+![Jekyll static website generator web page screenshot](/assets/i/dev9/jekyll-landing-page.png)
 
 [Jekyll](https://jekyllrb.com/){:target="_blank" rel="noreferrer"} is a static site generator. I use Jekyll so that I can write my articles in [Markdown](https://en.wikipedia.org/wiki/Markdown){:target="_blank" rel="noreferrer"}, push them to GitHub, and the changes would go live.
 
@@ -150,7 +150,7 @@ I already knew how Jekyll generally works. I didn't go too deep into it, and I d
 
 While setting things up in Jekyll, I tested locally on many different browsers.
 
-![Testing my code in browser for many devices](assets/i/dev9/testing-website-locally.png)
+![Testing my code in browser for many devices](/assets/i/dev9/testing-website-locally.png)
 
 When I got decent results, I committed the changes and pushed them to the GitHub repo hosted on GitHub pages. In a couple of minutes, it was up and running.
 
