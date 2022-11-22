@@ -3,7 +3,7 @@ title: Domain Name Buying Guide 2022
 layout: post
 author: Mostafa Lotfy
 section: Dev
-permalink: /design/domain-name-guide-2022
+permalink: /dev/domain-name-guide-2022
 description:   
 image: /assets/i/domain-name/domain-name-guide.png
 ---
