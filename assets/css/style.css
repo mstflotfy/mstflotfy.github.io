@@ -127,7 +127,8 @@ sitemap: false
   }
 
   main {
-    overflow-y: scroll;
+    /* Removed it to let the scrolling happen on the body */
+/*     overflow-y: scroll; */
   }
 
 /* Main */
@@ -166,22 +167,24 @@ sitemap: false
     justify-content: center;
     align-self: stretch;
     flex-grow: 1;
+    padding: 2.5rem 0;
   }
 
   .content {
-
-    display: flex;
+/* Commented out the diplay flex to avoid showing the footer at all times */
+/*     display: flex; */
     flex-direction: column;
     justify-content: space-between;
-    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    padding: 2.5rem;
     gap: 2.5rem;
     align-self: stretch;
 
-    position: fixed;
+/* Removing this allowed me to scroll otherwise the page was stuck when I removed flex and had a fixed position */
+/*     position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
-    bottom: 0px;
+    bottom: 0px; */
     
   }
 
@@ -384,7 +387,8 @@ sitemap: false
     gap: 1.25rem;
     margin: 0px;
     align-self: stretch;
-    overflow-y: scroll;
+/* Remvocved it as it was stuck and not scrolling, this allowed the scrolling to happen on the body instead */
+/*     overflow-y: scroll; */
   }
 
   article * {
@@ -402,13 +406,22 @@ sitemap: false
   }
 /* article elements */
   img {
-    width: 100%;
-    vertical-align: middle;
+    /* images were too large 60% seems good for most cases */
+    width: 60%;
+    /* The following 2 lines make the image centered */
+    display: block;
+    margin: 0 auto;
   }
-
+  
+  /* Titlte image is a class given by Jekyll automatically to the main image of the page. I set it to always be 100% */
+  .title__image {
+    width: 100%;
+  }
   iframe {
     width: 100%;
-    height: 100%;
+    /* Removing this seems to make it not squashed anymore */
+/*     height: 200%; */
+    margin: 4rem 0;
   }
 
 /* cta */
@@ -465,6 +478,7 @@ sitemap: false
     justify-content: space-between;
     align-items: center;
     padding: 0px;
+    padding-bottom: 2.5rem;
     align-self: stretch;
 
     flex: none;
@@ -514,7 +528,8 @@ sitemap: false
 
 /* image */
     .main-image *{
-      max-width: 90%;
+      /* Changed it from max-width to width to override the img 60% rule */
+      width: 90%;
       height: auto;
     }
 /* Media Queries */
@@ -550,11 +565,12 @@ sitemap: false
     }
     .content {
       /* Make the header and footer sticky and only the article will scroll, for small sizes */
-      position: fixed;
+      /* Removed this to be able to scroll for small devices after removing the always showing header and footer setup */
+/*       position: fixed;
       left: 0px;
       right: 0px;
       top: 0px;
-      bottom: 0px; 
+      bottom: 0px;  */
     }
     .main-image-small * {
       width: 100%;
@@ -574,8 +590,9 @@ sitemap: false
   /* Since title image (article cover image) 
   is too small for small screens at 50%, I switch 
   its width to 100% instead for screens smaller than 450px */
-    img, .title__image {
-      max-width: 100%;
+    img {
+    /* max width was not working, so I changed it to width, now for smaller screens the images are not 60% */
+      width: 100%;
     }
   }
 
