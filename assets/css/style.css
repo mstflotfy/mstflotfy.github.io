@@ -172,19 +172,23 @@ sitemap: false
 
   .content {
 /* Commented out the diplay flex to avoid showing the footer at all times */
-/*     display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 2.5rem;
     gap: 2.5rem;
     align-self: stretch;
+    /* When I press back I can't return to the table of content anymore */
+    overflow-y: scroll;
 
 /* Removing this allowed me to scroll otherwise the page was stuck when I removed flex and had a fixed position */
-/*     position: fixed;
+/* Removing it also made some articles expand beyond the page and returning it fixed this issue. There is something else I did that made the footer not stick anymore! Because after I aded this again the footer was not sticky anymore. */
+/* This part of the code is almost essential. Many other little things that were out of place got fixed when I added this */
+    position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
-    bottom: 0px; */
+    bottom: 0px;
     
   }
 
@@ -383,7 +387,7 @@ sitemap: false
     display: flex;
     flex-direction: column;
     padding: 0px;
-    flex-grow: 1;
+/*     flex-grow: 1; */
     gap: 1.25rem;
     margin: 0px;
     align-self: stretch;
@@ -478,7 +482,6 @@ sitemap: false
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    padding-bottom: 2.5rem;
     align-self: stretch;
 
     flex: none;
@@ -590,7 +593,8 @@ sitemap: false
   /* Since title image (article cover image) 
   is too small for small screens at 50%, I switch 
   its width to 100% instead for screens smaller than 450px */
-    img {
+
+    img, .main-image {
     /* max width was not working, so I changed it to width, now for smaller screens the images are not 60% */
       width: 100%;
     }
