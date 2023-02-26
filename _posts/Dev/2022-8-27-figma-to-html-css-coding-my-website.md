@@ -14,6 +14,8 @@ I am documenting the lessons I come across while I work on building my own indie
 
 As an exercise to learn Figma, I redesigned my website. 
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2U750Bd3CbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ![a design of a mobile webpage inside Figma](/assets/i/dev9/figma-responsive-design-website-mobile-figma-to-code.png)
 
 I implemented this Figma design into my website.
