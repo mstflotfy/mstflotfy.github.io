@@ -77,7 +77,6 @@ sitemap: false
     line-height: var(--h1-line-height);
     color: var(--h1-color);
     text-transform: uppercase;
-    text-align: center;
   }
 
   h2 {
